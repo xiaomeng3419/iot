@@ -1,0 +1,72 @@
+2018-07-12 20:11:06,117 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 20:11:08,134 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 20:11:12,398 - all - INFO - views.py line:51-- get news : 
+2018-07-12 20:11:14,474 - all - INFO - views.py line:119-- timestamp : 1531397474165 
+2018-07-12 20:11:26,675 - all - ERROR - views.py line:61-- <QuerySet []> 
+2018-07-12 20:11:34,256 - all - INFO - views.py line:51-- get news : 
+2018-07-12 20:11:34,271 - all - INFO - views.py line:145-- get news : 
+2018-07-12 20:11:34,285 - all - INFO - views.py line:126-- get news : 
+2018-07-12 20:11:34,301 - all - INFO - views.py line:109-- get news : 
+2018-07-12 20:11:49,942 - all - INFO - views.py line:51-- get news : 
+2018-07-12 20:11:49,948 - all - INFO - views.py line:145-- get news : 
+2018-07-12 20:11:49,951 - all - INFO - views.py line:126-- get news : 
+2018-07-12 20:11:49,953 - all - INFO - views.py line:109-- get news : 
+2018-07-12 20:11:59,944 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 20:12:02,077 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 20:12:04,041 - all - INFO - views.py line:51-- get news : 
+2018-07-12 20:12:04,056 - all - INFO - views.py line:126-- get news : 
+2018-07-12 20:12:04,057 - all - INFO - views.py line:109-- get news : 
+2018-07-12 20:12:04,058 - all - INFO - views.py line:145-- get news : 
+2018-07-12 20:15:00,255 - all - INFO - views.py line:126-- get news : 
+2018-07-12 20:15:00,255 - all - INFO - views.py line:23-- get news : 
+2018-07-12 20:15:00,261 - all - INFO - views.py line:145-- get news : 
+2018-07-12 20:15:00,263 - all - INFO - views.py line:109-- get news : 
+2018-07-12 20:15:01,600 - all - INFO - views.py line:23-- get news : 
+2018-07-12 20:15:01,606 - all - INFO - views.py line:126-- get news : 
+2018-07-12 20:15:01,610 - all - INFO - views.py line:109-- get news : 
+2018-07-12 20:15:01,610 - all - INFO - views.py line:145-- get news : 
+2018-07-12 20:15:06,521 - all - INFO - views.py line:51-- get news : 
+2018-07-12 20:15:07,222 - all - INFO - views.py line:51-- get news : 
+2018-07-12 20:17:32,088 - all - INFO - views.py line:51-- get news : 
+2018-07-12 20:17:34,428 - all - INFO - views.py line:119-- timestamp : 1531397854120 
+2018-07-12 20:17:40,206 - all - INFO - views.py line:51-- get news : 
+2018-07-12 20:17:58,550 - all - INFO - views.py line:51-- get news : 
+2018-07-12 20:17:58,553 - all - INFO - views.py line:145-- get news : 
+2018-07-12 20:17:58,570 - all - INFO - views.py line:126-- get news : 
+2018-07-12 20:17:58,571 - all - INFO - views.py line:109-- get news : 
+2018-07-12 20:18:02,512 - all - INFO - views.py line:51-- get news : 
+2018-07-18 15:17:23,316 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-18 15:18:59,248 - all - INFO - views.py line:119-- timestamp : 1531898338671 
+2018-07-18 15:19:05,208 - all - ERROR - views.py line:61-- <QuerySet []> 
+2018-07-18 15:19:19,772 - all - INFO - views.py line:51-- get news : 
+2018-07-18 15:19:19,774 - all - INFO - views.py line:145-- get news : 
+2018-07-18 15:19:19,821 - all - INFO - views.py line:126-- get news : 
+2018-07-18 15:19:19,830 - all - INFO - views.py line:109-- get news : 
+2018-07-18 15:19:21,762 - all - INFO - views.py line:23-- get news : 
+2018-07-18 15:19:21,768 - all - INFO - views.py line:145-- get news : 
+2018-07-18 15:19:21,770 - all - INFO - views.py line:126-- get news : 
+2018-07-18 15:19:21,771 - all - INFO - views.py line:109-- get news : 
+2018-07-18 15:19:29,341 - all - INFO - views.py line:23-- get news : 
+2018-07-18 15:19:29,344 - all - INFO - views.py line:126-- get news : 
+2018-07-18 15:19:29,359 - all - INFO - views.py line:145-- get news : 
+2018-07-18 15:19:29,385 - all - INFO - views.py line:109-- get news : 
+2018-07-18 15:20:43,149 - all - INFO - views.py line:51-- get news : 
+2018-07-18 15:20:43,199 - all - INFO - views.py line:145-- get news : 
+2018-07-18 15:20:43,199 - all - INFO - views.py line:126-- get news : 
+2018-07-18 15:20:43,200 - all - INFO - views.py line:109-- get news : 
+2018-07-18 15:20:54,953 - all - INFO - views.py line:51-- get news : 
+2018-07-18 15:20:54,961 - all - INFO - views.py line:126-- get news : 
+2018-07-18 15:20:54,967 - all - INFO - views.py line:109-- get news : 
+2018-07-18 15:20:54,969 - all - INFO - views.py line:145-- get news : 
+2018-07-18 15:20:59,826 - all - INFO - views.py line:23-- get news : 
+2018-07-18 15:20:59,832 - all - INFO - views.py line:126-- get news : 
+2018-07-18 15:20:59,833 - all - INFO - views.py line:145-- get news : 
+2018-07-18 15:20:59,836 - all - INFO - views.py line:109-- get news : 
+2018-07-18 15:21:05,434 - all - INFO - views.py line:145-- get news : 
+2018-07-18 15:21:05,436 - all - INFO - views.py line:23-- get news : 
+2018-07-18 15:21:05,437 - all - INFO - views.py line:126-- get news : 
+2018-07-18 15:21:05,437 - all - INFO - views.py line:109-- get news : 
+2018-07-18 15:23:11,430 - all - INFO - views.py line:145-- get news : 
+2018-07-18 15:23:11,430 - all - INFO - views.py line:23-- get news : 
+2018-07-18 15:23:11,431 - all - INFO - views.py line:126-- get news : 
+2018-07-18 15:23:11,434 - all - INFO - views.py line:109-- get news : 

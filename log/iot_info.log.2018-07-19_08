@@ -1,0 +1,275 @@
+2018-07-18 22:09:49,337 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-18 22:09:51,648 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-18 22:10:33,944 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-18 22:10:36,085 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-18 22:26:29,930 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-18 22:26:31,994 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-18 22:29:06,166 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-18 22:29:08,179 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-18 22:39:54,185 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-18 22:39:56,394 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-18 22:42:25,555 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-18 22:42:27,560 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-18 22:42:57,139 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-18 22:43:01,681 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-18 22:43:47,690 - django.request - ERROR - exception.py line:118-- Internal Server Error: /day/getStream/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-18 22:44:06,865 - django.request - ERROR - exception.py line:118-- Internal Server Error: /day/getStream/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-18 22:44:07,209 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-18 22:44:18,907 - django.request - ERROR - exception.py line:118-- Internal Server Error: /day/getStream/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-18 22:44:19,119 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-18 22:44:54,807 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-18 22:45:02,717 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-18 22:45:07,475 - django.request - WARNING - base.py line:93-- Not Found: /day/getStream/ 
+2018-07-18 22:45:07,557 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-18 22:46:25,497 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-18 22:46:31,278 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-18 22:46:38,696 - django.request - ERROR - exception.py line:118-- Internal Server Error: /zpSpider/getStream/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\zpSpider\views.py", line 135, in stream_video
+    size = os.path.getsize(path)
+  File "E:\common\Python\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。: '1531904631.mp4'
+2018-07-18 22:46:38,999 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-18 22:48:19,516 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-18 22:48:24,301 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-18 22:48:28,856 - django.request - ERROR - exception.py line:118-- Internal Server Error: /zpSpider/getStream/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\zpSpider\views.py", line 135, in stream_video
+    size = os.path.getsize(path)
+  File "E:\common\Python\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。: './1531904631.mp4'
+2018-07-18 22:48:29,085 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-18 22:49:14,604 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-18 22:49:19,105 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-18 22:49:41,307 - django.request - ERROR - exception.py line:118-- Internal Server Error: /zpSpider/getStream/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\zpSpider\views.py", line 136, in stream_video
+    content_type, encoding = mimetypes.guess_type(path)
+NameError: name 'mimetypes' is not defined
+2018-07-18 22:49:41,541 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-18 23:04:42,356 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-18 23:04:46,515 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-18 23:05:09,867 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-18 23:09:52,614 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-19 08:43:33,544 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-19 08:57:57,151 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-19 09:18:07,613 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-19 09:18:42,370 - all - INFO - views.py line:119-- timestamp : 1531963122057 
+2018-07-19 09:18:51,995 - all - INFO - views.py line:58-- get news : 
+2018-07-19 09:18:52,016 - all - INFO - views.py line:145-- get news : 
+2018-07-19 09:18:52,058 - all - INFO - views.py line:126-- get news : 
+2018-07-19 09:18:52,073 - all - INFO - views.py line:109-- get news : 
+2018-07-19 09:20:32,907 - all - INFO - views.py line:58-- get news : 
+2018-07-19 09:20:32,926 - all - INFO - views.py line:145-- get news : 
+2018-07-19 09:20:32,941 - all - INFO - views.py line:126-- get news : 
+2018-07-19 09:20:32,958 - all - INFO - views.py line:109-- get news : 
+2018-07-19 09:36:11,497 - all - INFO - views.py line:23-- get news : 
+2018-07-19 09:36:11,500 - all - INFO - views.py line:145-- get news : 
+2018-07-19 09:36:11,503 - all - INFO - views.py line:126-- get news : 
+2018-07-19 09:36:11,504 - all - INFO - views.py line:109-- get news : 
+2018-07-19 09:36:15,909 - all - INFO - views.py line:58-- get news : 
+2018-07-19 09:36:15,912 - all - INFO - views.py line:145-- get news : 
+2018-07-19 09:36:15,918 - all - INFO - views.py line:126-- get news : 
+2018-07-19 09:36:15,919 - all - INFO - views.py line:109-- get news : 

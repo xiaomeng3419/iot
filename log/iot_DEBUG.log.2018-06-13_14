@@ -1,0 +1,91 @@
+2018-06-07 17:22:14,624 - all - INFO - views.py line:104-- timestamp : 1528363334232 
+2018-06-07 17:22:18,117 - all - INFO - views.py line:104-- timestamp : 1528363338041 
+2018-06-07 17:22:20,463 - all - INFO - views.py line:104-- timestamp : 1528363340089 
+2018-06-07 17:22:33,535 - all - INFO - views.py line:104-- timestamp : 1528363353166 
+2018-06-10 21:56:32,369 - all - INFO - views.py line:106-- timestamp : 1528638991986 
+2018-06-10 21:57:25,256 - all - INFO - views.py line:106-- timestamp : 1528639044948 
+2018-06-10 21:59:50,988 - all - ERROR - views.py line:47-- <QuerySet []> 
+2018-06-10 22:04:13,722 - all - INFO - views.py line:107-- timestamp : 1528639453697 
+2018-06-10 22:04:32,506 - all - ERROR - views.py line:48-- <QuerySet []> 
+2018-06-10 22:05:15,881 - all - ERROR - views.py line:48-- <QuerySet []> 
+2018-06-11 09:59:07,819 - all - INFO - views.py line:107-- timestamp : 1528682347600 
+2018-06-11 14:06:44,884 - all - INFO - views.py line:107-- timestamp : 1528697204862 
+2018-06-11 14:26:23,145 - all - INFO - views.py line:107-- timestamp : 1528698382832 
+2018-06-11 14:46:05,351 - all - INFO - views.py line:107-- timestamp : 1528699565026 
+2018-06-11 15:04:59,261 - all - INFO - views.py line:107-- timestamp : 1528700698945 
+2018-06-11 15:05:09,226 - all - INFO - views.py line:107-- timestamp : 1528700709154 
+2018-06-11 15:33:25,598 - all - INFO - views.py line:107-- timestamp : 1528702405290 
+2018-06-11 16:02:03,690 - all - INFO - views.py line:107-- timestamp : 1528704123378 
+2018-06-11 16:28:09,349 - all - ERROR - views.py line:48-- <QuerySet []> 
+2018-06-11 16:31:20,258 - all - ERROR - views.py line:48-- <QuerySet []> 
+2018-06-11 16:35:25,017 - all - INFO - views.py line:107-- timestamp : 1528706124708 
+2018-06-11 16:43:36,968 - all - INFO - views.py line:107-- timestamp : 1528706616644 
+2018-06-11 17:37:49,606 - all - INFO - views.py line:107-- timestamp : 1528709869283 
+2018-06-11 17:40:34,195 - all - INFO - views.py line:107-- timestamp : 1528710033871 
+2018-06-11 18:52:09,233 - all - INFO - views.py line:107-- timestamp : 1528714328915 
+2018-06-11 18:54:09,011 - all - INFO - views.py line:107-- timestamp : 1528714448703 
+2018-06-11 19:46:56,657 - all - INFO - views.py line:109-- timestamp : 1528717616311 
+2018-06-11 19:52:00,381 - all - INFO - views.py line:110-- timestamp : 1528717920055 
+2018-06-11 20:32:00,305 - all - INFO - views.py line:110-- timestamp : 1528720319998 
+2018-06-11 20:40:11,290 - all - INFO - views.py line:110-- timestamp : 1528720810982 
+2018-06-11 20:42:19,548 - all - INFO - views.py line:110-- timestamp : 1528720939242 
+2018-06-11 22:06:18,536 - all - INFO - views.py line:110-- timestamp : 1528725978228 
+2018-06-11 22:15:42,158 - all - INFO - views.py line:110-- timestamp : 1528726541844 
+2018-06-11 22:15:42,345 - all - INFO - views.py line:110-- timestamp : 1528726541948 
+2018-06-11 22:15:42,407 - all - INFO - views.py line:110-- timestamp : 1528726542090 
+2018-06-11 22:15:59,436 - all - INFO - views.py line:110-- timestamp : 1528726559110 
+2018-06-11 22:18:09,779 - all - INFO - views.py line:110-- timestamp : 1528726689457 
+2018-06-11 22:18:18,868 - all - INFO - views.py line:110-- timestamp : 1528726698848 
+2018-06-11 22:21:24,624 - all - INFO - views.py line:110-- timestamp : 1528726884490 
+2018-06-11 22:21:24,881 - all - INFO - views.py line:110-- timestamp : 1528726884877 
+2018-06-11 22:21:25,405 - all - INFO - views.py line:110-- timestamp : 1528726885275 
+2018-06-11 22:21:25,581 - all - INFO - views.py line:110-- timestamp : 1528726885467 
+2018-06-11 22:21:25,775 - all - INFO - views.py line:110-- timestamp : 1528726885661 
+2018-06-11 22:21:25,967 - all - INFO - views.py line:110-- timestamp : 1528726885851 
+2018-06-11 22:21:26,157 - all - INFO - views.py line:110-- timestamp : 1528726886043 
+2018-06-11 22:21:26,350 - all - INFO - views.py line:110-- timestamp : 1528726886254 
+2018-06-11 22:21:28,340 - all - INFO - views.py line:110-- timestamp : 1528726888335 
+2018-06-11 22:21:44,175 - all - INFO - views.py line:110-- timestamp : 1528726903806 
+2018-06-11 22:21:59,485 - all - INFO - views.py line:110-- timestamp : 1528726919413 
+2018-06-11 22:22:34,546 - all - INFO - views.py line:110-- timestamp : 1528726954224 
+2018-06-11 22:22:35,616 - all - INFO - views.py line:110-- timestamp : 1528726955547 
+2018-06-11 22:23:03,083 - all - INFO - views.py line:110-- timestamp : 1528726982710 
+2018-06-11 22:23:10,996 - all - INFO - views.py line:110-- timestamp : 1528726990978 
+2018-06-11 22:23:50,659 - all - INFO - views.py line:110-- timestamp : 1528727030339 
+2018-06-11 22:24:23,896 - all - INFO - views.py line:110-- timestamp : 1528727063571 
+2018-06-11 22:24:24,147 - all - INFO - views.py line:110-- timestamp : 1528727063884 
+2018-06-11 22:24:26,491 - all - INFO - views.py line:110-- timestamp : 1528727066469 
+2018-06-11 22:24:39,784 - all - INFO - views.py line:110-- timestamp : 1528727079709 
+2018-06-11 22:24:56,123 - all - INFO - views.py line:110-- timestamp : 1528727095815 
+2018-06-11 22:24:56,130 - all - INFO - views.py line:110-- timestamp : 1528727095819 
+2018-06-11 22:26:23,149 - all - INFO - views.py line:110-- timestamp : 1528727182755 
+2018-06-11 22:26:24,864 - all - INFO - views.py line:110-- timestamp : 1528727184741 
+2018-06-11 22:27:39,428 - all - INFO - views.py line:110-- timestamp : 1528727259000 
+2018-06-11 22:28:07,400 - all - INFO - views.py line:110-- timestamp : 1528727286979 
+2018-06-12 10:06:40,513 - all - INFO - views.py line:110-- timestamp : 1528769199990 
+2018-06-12 10:07:17,596 - all - INFO - views.py line:110-- timestamp : 1528769237282 
+2018-06-12 10:07:52,652 - all - INFO - views.py line:110-- timestamp : 1528769272342 
+2018-06-12 10:12:39,500 - all - INFO - views.py line:110-- timestamp : 1528769559191 
+2018-06-12 10:12:55,096 - all - INFO - views.py line:110-- timestamp : 1528769574785 
+2018-06-12 10:16:21,486 - all - ERROR - views.py line:51-- <QuerySet []> 
+2018-06-12 10:16:24,603 - all - ERROR - views.py line:51-- <QuerySet []> 
+2018-06-12 10:16:33,272 - all - INFO - views.py line:110-- timestamp : 1528769792965 
+2018-06-12 10:17:56,187 - all - INFO - views.py line:110-- timestamp : 1528769875881 
+2018-06-12 10:19:55,004 - all - INFO - views.py line:110-- timestamp : 1528769994694 
+2018-06-12 10:21:17,587 - all - INFO - views.py line:110-- timestamp : 1528770077280 
+2018-06-12 10:23:19,495 - all - INFO - views.py line:110-- timestamp : 1528770199188 
+2018-06-12 10:23:45,911 - all - INFO - views.py line:110-- timestamp : 1528770225604 
+2018-06-12 10:26:49,865 - all - INFO - views.py line:110-- timestamp : 1528770409559 
+2018-06-12 10:30:28,540 - all - INFO - views.py line:110-- timestamp : 1528770628233 
+2018-06-12 10:30:57,788 - all - INFO - views.py line:110-- timestamp : 1528770657481 
+2018-06-12 10:33:34,467 - all - INFO - views.py line:110-- timestamp : 1528770814159 
+2018-06-12 10:39:37,959 - all - INFO - views.py line:110-- timestamp : 1528771177647 
+2018-06-12 10:39:46,905 - all - ERROR - views.py line:51-- <QuerySet []> 
+2018-06-12 10:40:45,256 - all - INFO - views.py line:110-- timestamp : 1528771244950 
+2018-06-12 11:07:01,479 - all - INFO - views.py line:110-- timestamp : 1528772821172 
+2018-06-12 15:28:48,302 - all - INFO - views.py line:115-- timestamp : 1528788527977 
+2018-06-12 17:26:47,181 - all - INFO - views.py line:115-- timestamp : 1528795607157 
+2018-06-12 17:29:27,126 - all - INFO - views.py line:115-- timestamp : 1528795766871 
+2018-06-12 17:34:28,802 - all - INFO - views.py line:115-- timestamp : 1528796068510 
+2018-06-12 17:41:36,113 - all - INFO - views.py line:115-- timestamp : 1528796495806 
+2018-06-13 14:45:24,510 - all - INFO - views.py line:115-- timestamp : 1528872324192 

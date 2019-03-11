@@ -1,0 +1,44 @@
+2018-08-10 17:02:50,504 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 17:02:53,134 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 17:14:08,818 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 17:14:10,468 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 17:19:33,308 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 17:19:34,823 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 17:26:09,030 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 17:26:10,721 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 17:26:15,517 - all - ERROR - views.py line:83-- (1241, 'Operand should contain 1 column(s)') 
+2018-08-10 17:27:58,608 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 17:28:00,132 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 17:28:04,964 - all - ERROR - views.py line:83-- (1364, "Field 'createtime' doesn't have a default value") 
+2018-08-10 17:30:07,956 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 17:30:08,554 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 17:33:50,676 - all - ERROR - views.py line:83-- (1364, "Field 'is_closed' doesn't have a default value") 
+2018-08-10 18:17:28,646 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 18:17:30,246 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 18:17:51,324 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 18:17:51,895 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 18:18:16,587 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 18:18:17,380 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 18:18:31,212 - django.request - ERROR - exception.py line:118-- Internal Server Error: /day/upload/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\day\views.py", line 186, in upload
+    user = request.session[request.GET.get("token")]
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'af42680d399b451297708f763b45ad4c'
+2018-08-10 18:18:50,366 - all - INFO - views.py line:58-- get news : 
+2018-08-10 18:18:51,962 - all - INFO - views.py line:119-- timestamp : 1533896331957 
+2018-08-10 18:19:35,938 - all - ERROR - views.py line:83-- (1364, "Field 'is_closed' doesn't have a default value") 
+2018-08-10 18:20:22,264 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 18:20:23,862 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 18:20:43,412 - all - ERROR - views.py line:83-- (1364, "Field 'delete' doesn't have a default value") 
+2018-08-10 19:13:34,483 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 19:13:36,384 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 19:17:42,179 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 19:17:44,235 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 

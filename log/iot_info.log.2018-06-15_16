@@ -1,0 +1,406 @@
+2018-06-14 17:38:20,899 - django.request - WARNING - base.py line:93-- Not Found: /blog/getClassfies 
+2018-06-14 17:38:27,198 - django.request - WARNING - base.py line:93-- Not Found: /blog/getClassfies 
+2018-06-14 17:39:17,958 - django.request - WARNING - base.py line:93-- Not Found: /blog/getClassfies 
+2018-06-14 17:40:13,980 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 46, in getClassfies
+    classfies = Blog_classfies.objects.get()
+  File "E:\common\Python\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 407, in get
+    (self.model._meta.object_name, num)
+blog.models.MultipleObjectsReturned: get() returned more than one Blog_classfies -- it returned 3!
+2018-06-14 17:40:20,678 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 46, in getClassfies
+    classfies = Blog_classfies.objects.get()
+  File "E:\common\Python\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 407, in get
+    (self.model._meta.object_name, num)
+blog.models.MultipleObjectsReturned: get() returned more than one Blog_classfies -- it returned 3!
+2018-06-14 17:42:06,815 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view blog.views.getClassfies didn't return an HttpResponse object. It returned None instead.
+2018-06-14 20:40:59,339 - all - INFO - views.py line:115-- timestamp : 1528980058098 
+2018-06-14 20:52:45,061 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:/common/Python/lib/site-packages/django/bin/iot\blog\views.py", line 51, in getClassfies
+    print(json.dumps(list(classfies)))
+  File "E:\common\Python\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "E:\common\Python\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "E:\common\Python\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "E:\common\Python\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Blog_classfies' is not JSON serializable
+2018-06-14 20:52:50,743 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:/common/Python/lib/site-packages/django/bin/iot\blog\views.py", line 51, in getClassfies
+    print(json.dumps(list(classfies)))
+  File "E:\common\Python\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "E:\common\Python\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "E:\common\Python\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "E:\common\Python\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Blog_classfies' is not JSON serializable
+2018-06-14 20:53:06,412 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 51, in getClassfies
+    print(json.dumps(list(classfies)))
+  File "E:\common\Python\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "E:\common\Python\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "E:\common\Python\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "E:\common\Python\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Blog_classfies' is not JSON serializable
+2018-06-14 20:56:31,284 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 52, in getClassfies
+    print(json.dumps(afr))
+  File "E:\common\Python\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "E:\common\Python\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "E:\common\Python\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "E:\common\Python\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Blog_classfies' is not JSON serializable
+2018-06-14 21:10:37,517 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 55, in getClassfies
+    print(model_to_dict(classfies))
+  File "E:\common\Python\lib\site-packages\django\forms\models.py", line 82, in model_to_dict
+    opts = instance._meta
+AttributeError: 'QuerySet' object has no attribute '_meta'
+2018-06-14 21:12:28,403 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 55, in getClassfies
+    print(model_to_dict(classfies))
+  File "E:\common\Python\lib\site-packages\django\forms\models.py", line 82, in model_to_dict
+    opts = instance._meta
+AttributeError: 'QuerySet' object has no attribute '_meta'
+2018-06-14 21:18:29,677 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 58, in getClassfies
+    list1.append(dic["field"])
+TypeError: 'Blog_classfies' object is not subscriptable
+2018-06-14 21:19:11,040 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 59, in getClassfies
+    list1.append(dic["field"])
+TypeError: 'Blog_classfies' object is not subscriptable
+2018-06-14 21:21:04,816 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 59, in getClassfies
+    f = dic.__dict___
+AttributeError: 'Blog_classfies' object has no attribute '__dict___'
+2018-06-14 21:28:16,635 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'mydatabase.sys_role' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 50, in getClassfies
+    result = serializers.serialize("json",classfies)
+  File "E:\common\Python\lib\site-packages\django\core\serializers\__init__.py", line 128, in serialize
+    s.serialize(queryset, **options)
+  File "E:\common\Python\lib\site-packages\django\core\serializers\base.py", line 80, in serialize
+    for count, obj in enumerate(queryset, start=1):
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 272, in __iter__
+    self._fetch_all()
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\common\Python\lib\site-packages\django\db\models\sql\compiler.py", line 1067, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'mydatabase.sys_role' doesn't exist")
+2018-06-14 21:29:21,438 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'mydatabase.blog_blogclassfies' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 50, in getClassfies
+    result = serializers.serialize("json",classfies)
+  File "E:\common\Python\lib\site-packages\django\core\serializers\__init__.py", line 128, in serialize
+    s.serialize(queryset, **options)
+  File "E:\common\Python\lib\site-packages\django\core\serializers\base.py", line 80, in serialize
+    for count, obj in enumerate(queryset, start=1):
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 272, in __iter__
+    self._fetch_all()
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\common\Python\lib\site-packages\django\db\models\sql\compiler.py", line 1067, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'mydatabase.blog_blogclassfies' doesn't exist")
+2018-06-14 21:29:45,559 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 63, in getClassfies
+    f = dic.__dict___
+AttributeError: 'Blog_classfies' object has no attribute '__dict___'
+2018-06-14 21:35:34,695 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 60, in getClassfies
+    datase = toJSON(classfies)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 104, in toJSON
+    for field in self._meta.fields:
+AttributeError: 'QuerySet' object has no attribute '_meta'
+2018-06-14 22:04:40,725 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 56, in getClassfies
+    datas = queryset_to_json(classfies)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 99, in queryset_to_json
+    obj_arr.append(o.toDict())
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\models.py", line 32, in toDict
+    [f.name for f in self._meta.fields]])
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\models.py", line 31, in <listcomp>
+    return dict([(attr, getDateF(fields = getattr(self, attr))) for attr in
+TypeError: getDateF() missing 1 required positional argument: 'self'
+2018-06-14 22:05:29,263 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 60, in getClassfies
+    datase = toJSON(classfies)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 104, in toJSON
+    for field in self._meta.fields:
+AttributeError: 'QuerySet' object has no attribute '_meta'
+2018-06-14 22:09:33,300 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getClassfies/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 56, in getClassfies
+    print(datas)
+NameError: name 'datas' is not defined
+2018-06-15 14:26:03,849 - all - INFO - views.py line:118-- timestamp : 1529043961976 
+2018-06-15 14:26:13,179 - all - INFO - views.py line:118-- timestamp : 1529043971901 
+2018-06-15 14:26:42,971 - all - INFO - views.py line:118-- timestamp : 1529043998854 
+2018-06-15 14:26:47,621 - all - INFO - views.py line:118-- timestamp : 1529044006308 
+2018-06-15 14:26:57,903 - all - INFO - views.py line:118-- timestamp : 1529044015932 
+2018-06-15 14:27:13,010 - all - INFO - views.py line:118-- timestamp : 1529044031582 
+2018-06-15 16:39:58,774 - all - INFO - views.py line:118-- timestamp : 1529051996443 
+2018-06-15 16:46:07,948 - all - INFO - views.py line:118-- timestamp : 1529052366074 
+2018-06-15 16:46:12,732 - all - ERROR - views.py line:59-- <QuerySet []> 

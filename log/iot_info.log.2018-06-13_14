@@ -1,0 +1,1619 @@
+2018-06-07 17:19:27,395 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-06-07 17:19:32,438 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-06-07 17:22:14,624 - all - INFO - views.py line:104-- timestamp : 1528363334232 
+2018-06-07 17:22:18,117 - all - INFO - views.py line:104-- timestamp : 1528363338041 
+2018-06-07 17:22:20,463 - all - INFO - views.py line:104-- timestamp : 1528363340089 
+2018-06-07 17:22:33,535 - all - INFO - views.py line:104-- timestamp : 1528363353166 
+2018-06-08 11:12:20,046 - django.request - WARNING - base.py line:93-- Not Found: /favicon.ico 
+2018-06-10 16:50:11,624 - django.request - ERROR - exception.py line:118-- Internal Server Error: /wwww 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 19, in process_request
+    if request.user.is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+2018-06-10 20:02:29,676 - django.request - ERROR - exception.py line:118-- Internal Server Error: /wwww 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 21, in process_request
+    for var in ob.keys:
+TypeError: 'builtin_function_or_method' object is not iterable
+2018-06-10 20:03:36,200 - django.request - ERROR - exception.py line:118-- Internal Server Error: /wwww 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 22, in process_request
+    for var in ob.keys:
+TypeError: 'builtin_function_or_method' object is not iterable
+2018-06-10 20:04:49,434 - django.request - ERROR - exception.py line:118-- Internal Server Error: /wwww 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 22, in process_request
+    for var in ob.keys:
+TypeError: 'builtin_function_or_method' object is not iterable
+2018-06-10 20:05:41,815 - django.request - ERROR - exception.py line:118-- Internal Server Error: /wwww 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 22, in process_request
+    for var in ob.keys:
+TypeError: 'builtin_function_or_method' object is not iterable
+2018-06-10 20:06:11,253 - django.request - ERROR - exception.py line:118-- Internal Server Error: /wwww 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 22, in process_request
+    for var in ob.keys:
+TypeError: 'builtin_function_or_method' object is not iterable
+2018-06-10 20:09:28,467 - django.request - ERROR - exception.py line:118-- Internal Server Error: /wwww 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 22, in process_request
+    for var in ob.keys:
+TypeError: 'builtin_function_or_method' object is not iterable
+2018-06-10 20:11:06,522 - django.request - ERROR - exception.py line:118-- Internal Server Error: /wwww 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    for var in ob.keys:
+TypeError: 'builtin_function_or_method' object is not iterable
+2018-06-10 20:11:28,761 - django.request - ERROR - exception.py line:118-- Internal Server Error: /wwww 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 24, in process_request
+    for var in ob.keys:
+TypeError: 'builtin_function_or_method' object is not iterable
+2018-06-10 20:13:21,707 - django.request - ERROR - exception.py line:118-- Internal Server Error: /wwww 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 24, in process_request
+    dic = list(ob.keys)
+TypeError: 'builtin_function_or_method' object is not iterable
+2018-06-10 20:13:45,138 - django.request - ERROR - exception.py line:118-- Internal Server Error: /wwww 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 24, in process_request
+    dic = list(ob.keys)
+TypeError: 'builtin_function_or_method' object is not iterable
+2018-06-10 20:15:43,001 - django.request - ERROR - exception.py line:118-- Internal Server Error: /wwww 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 24, in process_request
+    dic = list(ob.keys)
+TypeError: 'builtin_function_or_method' object is not iterable
+2018-06-10 20:18:29,610 - django.request - ERROR - exception.py line:118-- Internal Server Error: /wwww 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 24, in process_request
+    dic = list(ob.keys)
+TypeError: 'builtin_function_or_method' object is not iterable
+2018-06-10 20:18:51,669 - django.request - ERROR - exception.py line:118-- Internal Server Error: /wwww 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 24, in process_request
+    print(dic)
+NameError: name 'dic' is not defined
+2018-06-10 21:56:32,369 - all - INFO - views.py line:106-- timestamp : 1528638991986 
+2018-06-10 21:57:25,256 - all - INFO - views.py line:106-- timestamp : 1528639044948 
+2018-06-10 21:57:39,889 - django.request - WARNING - base.py line:93-- Not Found: /login/login/ 
+2018-06-10 21:58:45,644 - django.request - WARNING - base.py line:93-- Not Found: /login/login/ 
+2018-06-10 21:58:49,179 - django.request - WARNING - base.py line:93-- Not Found: /login/login/ 
+2018-06-10 21:59:50,988 - all - ERROR - views.py line:47-- <QuerySet []> 
+2018-06-10 22:04:13,722 - all - INFO - views.py line:107-- timestamp : 1528639453697 
+2018-06-10 22:04:18,939 - django.request - WARNING - base.py line:93-- Not Found: /login/login/ 
+2018-06-10 22:04:32,506 - all - ERROR - views.py line:48-- <QuerySet []> 
+2018-06-10 22:05:15,881 - all - ERROR - views.py line:48-- <QuerySet []> 
+2018-06-11 09:59:07,819 - all - INFO - views.py line:107-- timestamp : 1528682347600 
+2018-06-11 14:06:44,884 - all - INFO - views.py line:107-- timestamp : 1528697204862 
+2018-06-11 14:16:08,398 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 14, in process_request
+    print("---------------- filter start ---------------------"+request.session["zhangpanuser"])
+AttributeError: 'WSGIRequest' object has no attribute 'session'
+2018-06-11 14:16:23,760 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 14, in process_request
+    print("---------------- filter start ---------------------"+request.session["zhangpanuser"])
+AttributeError: 'WSGIRequest' object has no attribute 'session'
+2018-06-11 14:16:27,031 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 14, in process_request
+    print("---------------- filter start ---------------------"+request.session["zhangpanuser"])
+AttributeError: 'WSGIRequest' object has no attribute 'session'
+2018-06-11 14:16:38,556 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 14, in process_request
+    print("---------------- filter start ---------------------"+request.session["zhangpanuser"])
+AttributeError: 'WSGIRequest' object has no attribute 'session'
+2018-06-11 14:18:30,314 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 15, in process_request
+    print("---token" + request.session["zhangpanuser"])
+AttributeError: 'WSGIRequest' object has no attribute 'session'
+2018-06-11 14:23:48,468 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 15, in process_request
+    print("---token" + request.session["zhangpanuser"])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 14:25:03,878 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 15, in process_request
+    print("---token" + request.body)
+TypeError: must be str, not bytes
+2018-06-11 14:26:23,145 - all - INFO - views.py line:107-- timestamp : 1528698382832 
+2018-06-11 14:27:47,930 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 16, in process_request
+    print("blogtoken:"+request.sesson["zhangpanuser"])
+AttributeError: 'WSGIRequest' object has no attribute 'sesson'
+2018-06-11 14:34:57,550 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 25, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-11 14:35:44,560 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 25, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-11 14:36:31,182 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 27, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-11 14:38:30,238 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 22, in process_request
+    print("except url :"+each)
+TypeError: must be str, not _sre.SRE_Pattern
+2018-06-11 14:42:52,209 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 22, in process_request
+    print("except url :"+each)
+TypeError: must be str, not _sre.SRE_Pattern
+2018-06-11 14:43:05,994 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 22, in process_request
+    print("except url :"+each)
+TypeError: must be str, not _sre.SRE_Pattern
+2018-06-11 14:45:25,423 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 22, in process_request
+    print("except url :"+each)
+TypeError: must be str, not _sre.SRE_Pattern
+2018-06-11 14:45:25,996 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 22, in process_request
+    print("except url :"+each)
+TypeError: must be str, not _sre.SRE_Pattern
+2018-06-11 14:45:26,488 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 22, in process_request
+    print("except url :"+each)
+TypeError: must be str, not _sre.SRE_Pattern
+2018-06-11 14:45:26,739 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 22, in process_request
+    print("except url :"+each)
+TypeError: must be str, not _sre.SRE_Pattern
+2018-06-11 14:46:05,351 - all - INFO - views.py line:107-- timestamp : 1528699565026 
+2018-06-11 15:04:59,261 - all - INFO - views.py line:107-- timestamp : 1528700698945 
+2018-06-11 15:05:09,226 - all - INFO - views.py line:107-- timestamp : 1528700709154 
+2018-06-11 15:07:52,848 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 27, in process_request
+    print("blogtoken:" + request.session["zhangpanuser"])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 15:32:21,021 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 27, in process_request
+    print("blogtoken:" + request.session["zhangpanuser"])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 15:33:25,598 - all - INFO - views.py line:107-- timestamp : 1528702405290 
+2018-06-11 15:34:46,379 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 27, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-11 15:38:48,995 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 107, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-06-11 15:40:08,457 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 35, in process_request
+    if request.session[var] == ob[var] :
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 15:42:40,494 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 35, in process_request
+    print(request.session[str(var)])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 15:58:35,169 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 35, in process_request
+    print(request.session[str(var)])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 15:59:26,494 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 35, in process_request
+    print(request.session[str(var)])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 16:02:03,690 - all - INFO - views.py line:107-- timestamp : 1528704123378 
+2018-06-11 16:02:43,218 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 35, in process_request
+    print(request.session[str(var)])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 16:03:24,300 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 35, in process_request
+    print(request.session[str(var)])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 16:07:24,432 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 35, in process_request
+    print(request.session[str(var)])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 16:26:01,915 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 35, in process_request
+    print(request.session["zhangpanuser"])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 16:27:59,283 - django.request - WARNING - base.py line:93-- Not Found: /login/login/ 
+2018-06-11 16:28:09,349 - all - ERROR - views.py line:48-- <QuerySet []> 
+2018-06-11 16:31:20,258 - all - ERROR - views.py line:48-- <QuerySet []> 
+2018-06-11 16:31:43,796 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 35, in process_request
+    print(request.session["zhangpanuser"])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 16:33:15,334 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 35, in process_request
+    print(request.session["zhangpanuser"])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 16:34:47,402 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 12, in createBlog
+    print(request.session["zhangpanuser"])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 16:35:04,412 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 12, in createBlog
+    print(request.session["zhangpanuser"])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 16:35:25,017 - all - INFO - views.py line:107-- timestamp : 1528706124708 
+2018-06-11 16:43:36,968 - all - INFO - views.py line:107-- timestamp : 1528706616644 
+2018-06-11 17:37:49,606 - all - INFO - views.py line:107-- timestamp : 1528709869283 
+2018-06-11 17:38:18,019 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 32, in process_request
+    ca = cache.ttl(ob["token"])
+KeyError: 'token'
+2018-06-11 17:40:34,195 - all - INFO - views.py line:107-- timestamp : 1528710033871 
+2018-06-11 18:52:09,233 - all - INFO - views.py line:107-- timestamp : 1528714328915 
+2018-06-11 18:54:09,011 - all - INFO - views.py line:107-- timestamp : 1528714448703 
+2018-06-11 19:46:56,657 - all - INFO - views.py line:109-- timestamp : 1528717616311 
+2018-06-11 19:47:06,587 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 42, in login
+    print("---token:key:"+str(name)+"user\n" +"value:"+request.session[uuid])
+TypeError: must be str, not QuerySet
+2018-06-11 19:47:51,709 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 46, in login
+    return HttpResponse(json.dumps(ret), content_type="application/json")
+  File "E:\common\Python\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "E:\common\Python\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "E:\common\Python\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "E:\common\Python\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'QuerySet' is not JSON serializable
+2018-06-11 19:52:00,381 - all - INFO - views.py line:110-- timestamp : 1528717920055 
+2018-06-11 19:52:08,498 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 42, in login
+    request.session[uuid]=model_to_dict(user)
+  File "E:\common\Python\lib\site-packages\django\forms\models.py", line 82, in model_to_dict
+    opts = instance._meta
+AttributeError: 'QuerySet' object has no attribute '_meta'
+2018-06-11 20:28:35,671 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 32, in process_request
+    print("web get token:"+ob["token"])
+KeyError: 'token'
+2018-06-11 20:29:06,406 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 33, in process_request
+    ca = request.session(ob["token"])
+TypeError: 'SessionStore' object is not callable
+2018-06-11 20:30:38,234 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 33, in process_request
+    ca = request.session(ob["token"])
+TypeError: 'SessionStore' object is not callable
+2018-06-11 20:32:00,305 - all - INFO - views.py line:110-- timestamp : 1528720319998 
+2018-06-11 20:32:23,667 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 33, in process_request
+    ca = request.session(ob["token"])
+TypeError: 'SessionStore' object is not callable
+2018-06-11 20:32:53,911 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 33, in process_request
+    ca = request.session(str(ob["token"]))
+TypeError: 'SessionStore' object is not callable
+2018-06-11 20:39:24,523 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 33, in process_request
+    ca = request.session[str(ob["token"])]
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: '4039e8d6b4a34659928eff9fc4ce013e'
+2018-06-11 20:39:42,315 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 33, in process_request
+    ca = request.session[str(ob["token"])]
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: '788b69ef0dd947df98c6a9b0b8bc70ae'
+2018-06-11 20:40:11,290 - all - INFO - views.py line:110-- timestamp : 1528720810982 
+2018-06-11 20:40:34,756 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 12, in createBlog
+    print(request.session["zhangpanuser"])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 20:40:59,979 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 12, in createBlog
+    print(request.session["zhangpanuser"])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 20:42:19,548 - all - INFO - views.py line:110-- timestamp : 1528720939242 
+2018-06-11 20:42:50,510 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 12, in createBlog
+    print(request.session["zhangpanuser"])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-11 21:09:34,732 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 33, in process_request
+    ca = request.session[str(ob["token"])]
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: '9eb8b231dab44147b8ee3edf92b5b0c2'
+2018-06-11 21:09:42,275 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 33, in process_request
+    ca = request.session[str(ob["token"])]
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: '9eb8b231dab44147b8ee3edf92b5b0c2'
+2018-06-11 21:18:32,029 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-11 21:18:46,802 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-11 21:22:48,415 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-11 21:23:31,865 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-11 21:24:07,909 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-11 22:05:12,201 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 30, in process_request
+    ca = request.session[str(ob["token"])]
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: '9eb8b231dab44147b8ee3edf92b5b0c2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 33, in process_request
+    return HttpResponse(json.dumps(ret), content_type="application/json",status_code=401)
+  File "E:\common\Python\lib\site-packages\django\http\response.py", line 283, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'status_code'
+2018-06-11 22:06:18,536 - all - INFO - views.py line:110-- timestamp : 1528725978228 
+2018-06-11 22:15:42,158 - all - INFO - views.py line:110-- timestamp : 1528726541844 
+2018-06-11 22:15:42,345 - all - INFO - views.py line:110-- timestamp : 1528726541948 
+2018-06-11 22:15:42,407 - all - INFO - views.py line:110-- timestamp : 1528726542090 
+2018-06-11 22:15:59,436 - all - INFO - views.py line:110-- timestamp : 1528726559110 
+2018-06-11 22:18:09,779 - all - INFO - views.py line:110-- timestamp : 1528726689457 
+2018-06-11 22:18:18,868 - all - INFO - views.py line:110-- timestamp : 1528726698848 
+2018-06-11 22:21:24,624 - all - INFO - views.py line:110-- timestamp : 1528726884490 
+2018-06-11 22:21:24,881 - all - INFO - views.py line:110-- timestamp : 1528726884877 
+2018-06-11 22:21:25,405 - all - INFO - views.py line:110-- timestamp : 1528726885275 
+2018-06-11 22:21:25,581 - all - INFO - views.py line:110-- timestamp : 1528726885467 
+2018-06-11 22:21:25,775 - all - INFO - views.py line:110-- timestamp : 1528726885661 
+2018-06-11 22:21:25,967 - all - INFO - views.py line:110-- timestamp : 1528726885851 
+2018-06-11 22:21:26,157 - all - INFO - views.py line:110-- timestamp : 1528726886043 
+2018-06-11 22:21:26,350 - all - INFO - views.py line:110-- timestamp : 1528726886254 
+2018-06-11 22:21:28,340 - all - INFO - views.py line:110-- timestamp : 1528726888335 
+2018-06-11 22:21:44,175 - all - INFO - views.py line:110-- timestamp : 1528726903806 
+2018-06-11 22:21:59,485 - all - INFO - views.py line:110-- timestamp : 1528726919413 
+2018-06-11 22:22:34,546 - all - INFO - views.py line:110-- timestamp : 1528726954224 
+2018-06-11 22:22:35,616 - all - INFO - views.py line:110-- timestamp : 1528726955547 
+2018-06-11 22:23:03,083 - all - INFO - views.py line:110-- timestamp : 1528726982710 
+2018-06-11 22:23:10,996 - all - INFO - views.py line:110-- timestamp : 1528726990978 
+2018-06-11 22:23:50,659 - all - INFO - views.py line:110-- timestamp : 1528727030339 
+2018-06-11 22:24:23,896 - all - INFO - views.py line:110-- timestamp : 1528727063571 
+2018-06-11 22:24:24,147 - all - INFO - views.py line:110-- timestamp : 1528727063884 
+2018-06-11 22:24:26,491 - all - INFO - views.py line:110-- timestamp : 1528727066469 
+2018-06-11 22:24:39,784 - all - INFO - views.py line:110-- timestamp : 1528727079709 
+2018-06-11 22:24:56,123 - all - INFO - views.py line:110-- timestamp : 1528727095815 
+2018-06-11 22:24:56,130 - all - INFO - views.py line:110-- timestamp : 1528727095819 
+2018-06-11 22:26:23,149 - all - INFO - views.py line:110-- timestamp : 1528727182755 
+2018-06-11 22:26:24,864 - all - INFO - views.py line:110-- timestamp : 1528727184741 
+2018-06-11 22:27:39,428 - all - INFO - views.py line:110-- timestamp : 1528727259000 
+2018-06-11 22:28:07,400 - all - INFO - views.py line:110-- timestamp : 1528727286979 
+2018-06-12 10:06:40,513 - all - INFO - views.py line:110-- timestamp : 1528769199990 
+2018-06-12 10:06:42,634 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django_redis\client\default.py", line 477, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 97, in __call__
+    response = self.process_response(request, response)
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\middleware.py", line 58, in process_response
+    request.session.save()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 56, in save
+    return self.create()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 153, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\common\Python\lib\site-packages\django\core\cache\backends\base.py", line 201, in __contains__
+    return self.has_key(key)
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 39, in _decorator
+    raise e.parent
+  File "E:\common\Python\lib\site-packages\django_redis\client\default.py", line 475, in has_key
+    return client.exists(key)
+  File "E:\common\Python\lib\site-packages\redis\client.py", line 951, in exists
+    return self.execute_command('EXISTS', name)
+  File "E:\common\Python\lib\site-packages\redis\client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 585, in send_packed_command
+    self.connect()
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+2018-06-12 10:07:17,596 - all - INFO - views.py line:110-- timestamp : 1528769237282 
+2018-06-12 10:07:19,608 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django_redis\client\default.py", line 477, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 97, in __call__
+    response = self.process_response(request, response)
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\middleware.py", line 58, in process_response
+    request.session.save()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 56, in save
+    return self.create()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 153, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\common\Python\lib\site-packages\django\core\cache\backends\base.py", line 201, in __contains__
+    return self.has_key(key)
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 39, in _decorator
+    raise e.parent
+  File "E:\common\Python\lib\site-packages\django_redis\client\default.py", line 475, in has_key
+    return client.exists(key)
+  File "E:\common\Python\lib\site-packages\redis\client.py", line 951, in exists
+    return self.execute_command('EXISTS', name)
+  File "E:\common\Python\lib\site-packages\redis\client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 585, in send_packed_command
+    self.connect()
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+2018-06-12 10:07:52,652 - all - INFO - views.py line:110-- timestamp : 1528769272342 
+2018-06-12 10:07:54,664 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django_redis\client\default.py", line 477, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 97, in __call__
+    response = self.process_response(request, response)
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\middleware.py", line 58, in process_response
+    request.session.save()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 56, in save
+    return self.create()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 153, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\common\Python\lib\site-packages\django\core\cache\backends\base.py", line 201, in __contains__
+    return self.has_key(key)
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 39, in _decorator
+    raise e.parent
+  File "E:\common\Python\lib\site-packages\django_redis\client\default.py", line 475, in has_key
+    return client.exists(key)
+  File "E:\common\Python\lib\site-packages\redis\client.py", line 951, in exists
+    return self.execute_command('EXISTS', name)
+  File "E:\common\Python\lib\site-packages\redis\client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 585, in send_packed_command
+    self.connect()
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+2018-06-12 10:12:39,500 - all - INFO - views.py line:110-- timestamp : 1528769559191 
+2018-06-12 10:12:41,511 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django_redis\client\default.py", line 477, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 97, in __call__
+    response = self.process_response(request, response)
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\middleware.py", line 58, in process_response
+    request.session.save()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 56, in save
+    return self.create()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 153, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\common\Python\lib\site-packages\django\core\cache\backends\base.py", line 201, in __contains__
+    return self.has_key(key)
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 39, in _decorator
+    raise e.parent
+  File "E:\common\Python\lib\site-packages\django_redis\client\default.py", line 475, in has_key
+    return client.exists(key)
+  File "E:\common\Python\lib\site-packages\redis\client.py", line 951, in exists
+    return self.execute_command('EXISTS', name)
+  File "E:\common\Python\lib\site-packages\redis\client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 585, in send_packed_command
+    self.connect()
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+2018-06-12 10:12:55,096 - all - INFO - views.py line:110-- timestamp : 1528769574785 
+2018-06-12 10:12:57,106 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django_redis\client\default.py", line 477, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 97, in __call__
+    response = self.process_response(request, response)
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\middleware.py", line 58, in process_response
+    request.session.save()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 56, in save
+    return self.create()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 153, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\common\Python\lib\site-packages\django\core\cache\backends\base.py", line 201, in __contains__
+    return self.has_key(key)
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 39, in _decorator
+    raise e.parent
+  File "E:\common\Python\lib\site-packages\django_redis\client\default.py", line 475, in has_key
+    return client.exists(key)
+  File "E:\common\Python\lib\site-packages\redis\client.py", line 951, in exists
+    return self.execute_command('EXISTS', name)
+  File "E:\common\Python\lib\site-packages\redis\client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 585, in send_packed_command
+    self.connect()
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+2018-06-12 10:16:21,486 - all - ERROR - views.py line:51-- <QuerySet []> 
+2018-06-12 10:16:24,603 - all - ERROR - views.py line:51-- <QuerySet []> 
+2018-06-12 10:16:33,272 - all - INFO - views.py line:110-- timestamp : 1528769792965 
+2018-06-12 10:17:56,187 - all - INFO - views.py line:110-- timestamp : 1528769875881 
+2018-06-12 10:19:55,004 - all - INFO - views.py line:110-- timestamp : 1528769994694 
+2018-06-12 10:21:17,587 - all - INFO - views.py line:110-- timestamp : 1528770077280 
+2018-06-12 10:23:19,495 - all - INFO - views.py line:110-- timestamp : 1528770199188 
+2018-06-12 10:23:45,911 - all - INFO - views.py line:110-- timestamp : 1528770225604 
+2018-06-12 10:26:49,865 - all - INFO - views.py line:110-- timestamp : 1528770409559 
+2018-06-12 10:30:28,540 - all - INFO - views.py line:110-- timestamp : 1528770628233 
+2018-06-12 10:30:57,788 - all - INFO - views.py line:110-- timestamp : 1528770657481 
+2018-06-12 10:33:34,467 - all - INFO - views.py line:110-- timestamp : 1528770814159 
+2018-06-12 10:39:37,959 - all - INFO - views.py line:110-- timestamp : 1528771177647 
+2018-06-12 10:39:46,905 - all - ERROR - views.py line:51-- <QuerySet []> 
+2018-06-12 10:40:45,256 - all - INFO - views.py line:110-- timestamp : 1528771244950 
+2018-06-12 10:41:07,724 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 11, in createBlog
+    print(request.session["zhangpanuser"])
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'zhangpanuser'
+2018-06-12 11:07:01,479 - all - INFO - views.py line:110-- timestamp : 1528772821172 
+2018-06-12 12:22:24,771 - django.request - ERROR - exception.py line:118-- Internal Server Error: /api-doc/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-12 12:22:25,157 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-12 12:22:42,037 - django.request - ERROR - exception.py line:118-- Internal Server Error: /api-doc/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-12 12:22:42,219 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-12 12:23:59,448 - django.request - WARNING - base.py line:93-- Not Found: /api-doc、 
+2018-06-12 12:23:59,494 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-12 12:24:02,997 - django.request - ERROR - exception.py line:118-- Internal Server Error: /api-doc/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\common\Python\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\common\Python\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\common\Python\lib\site-packages\rest_framework\views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\swagger_views.py", line 43, in get
+    schema = generator.get_schema(request=request)
+  File "E:\common\Python\lib\site-packages\rest_framework\schemas\generators.py", line 283, in get_schema
+    inspector = self.endpoint_inspector_cls(self.patterns, self.urlconf)
+  File "E:\common\Python\lib\site-packages\rest_framework\schemas\generators.py", line 156, in __init__
+    urls = import_module(urlconf)
+  File "E:\common\Python\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'chess_user'
+2018-06-12 12:24:03,142 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-12 12:24:17,081 - django.request - ERROR - exception.py line:118-- Internal Server Error: /api-doc/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\common\Python\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\common\Python\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\common\Python\lib\site-packages\rest_framework\views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\swagger_views.py", line 43, in get
+    schema = generator.get_schema(request=request)
+  File "E:\common\Python\lib\site-packages\rest_framework\schemas\generators.py", line 283, in get_schema
+    inspector = self.endpoint_inspector_cls(self.patterns, self.urlconf)
+  File "E:\common\Python\lib\site-packages\rest_framework\schemas\generators.py", line 156, in __init__
+    urls = import_module(urlconf)
+  File "E:\common\Python\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'chess_user'
+2018-06-12 12:24:17,209 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-12 12:25:42,867 - django.request - ERROR - exception.py line:118-- Internal Server Error: /api-doc/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\common\Python\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\common\Python\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\common\Python\lib\site-packages\rest_framework\views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\swagger_views.py", line 43, in get
+    schema = generator.get_schema(request=request)
+  File "E:\common\Python\lib\site-packages\rest_framework\schemas\generators.py", line 283, in get_schema
+    inspector = self.endpoint_inspector_cls(self.patterns, self.urlconf)
+  File "E:\common\Python\lib\site-packages\rest_framework\schemas\generators.py", line 156, in __init__
+    urls = import_module(urlconf)
+  File "E:\common\Python\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'chess_user'
+2018-06-12 12:25:42,993 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-12 15:28:48,302 - all - INFO - views.py line:115-- timestamp : 1528788527977 
+2018-06-12 16:27:49,477 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-12 16:27:49,807 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-12 16:28:35,351 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-12 16:28:35,550 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 23, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-12 16:29:24,522 - django.request - WARNING - base.py line:93-- Not Found: /favicon.ico 
+2018-06-12 16:37:34,358 - django.request - WARNING - base.py line:93-- Not Found: /favicon.ico 
+2018-06-12 16:38:41,870 - django.request - WARNING - base.py line:93-- Not Found: /api-auth/ 
+2018-06-12 16:38:53,722 - django.request - WARNING - base.py line:93-- Not Found: /api-auth/ 
+2018-06-12 16:39:01,659 - django.request - WARNING - base.py line:93-- Not Found: /api-auth/ 
+2018-06-12 16:39:48,514 - django.request - WARNING - base.py line:93-- Not Found: /api-auth/ 
+2018-06-12 16:40:10,548 - django.request - WARNING - base.py line:93-- Not Found: /api-auth/ 
+2018-06-12 16:40:34,650 - django.request - WARNING - base.py line:93-- Not Found: /api-auth/api-auth/ 
+2018-06-12 16:46:10,315 - django.request - WARNING - base.py line:93-- Not Found: /api-auth/ 
+2018-06-12 16:47:01,138 - django.request - WARNING - base.py line:93-- Not Found: /api-auth/ 
+2018-06-12 16:48:22,619 - django.request - WARNING - base.py line:93-- Not Found: / 
+2018-06-12 16:48:32,426 - django.request - WARNING - base.py line:93-- Not Found: /api-auth/ 
+2018-06-12 16:49:39,619 - django.request - WARNING - base.py line:93-- Not Found: /api-auth/ 
+2018-06-12 17:02:07,523 - django.request - ERROR - exception.py line:118-- Internal Server Error: /users/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\common\Python\lib\site-packages\rest_framework\viewsets.py", line 95, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\common\Python\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\common\Python\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\common\Python\lib\site-packages\rest_framework\views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\common\Python\lib\site-packages\rest_framework\mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "E:\common\Python\lib\site-packages\rest_framework\serializers.py", line 742, in data
+    ret = super(ListSerializer, self).data
+  File "E:\common\Python\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\common\Python\lib\site-packages\rest_framework\serializers.py", line 660, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\common\Python\lib\site-packages\rest_framework\serializers.py", line 660, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\common\Python\lib\site-packages\rest_framework\serializers.py", line 487, in to_representation
+    fields = self._readable_fields
+  File "E:\common\Python\lib\site-packages\django\utils\functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\common\Python\lib\site-packages\rest_framework\serializers.py", line 377, in _readable_fields
+    field for field in self.fields.values()
+  File "E:\common\Python\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "E:\common\Python\lib\site-packages\rest_framework\serializers.py", line 1022, in get_fields
+    source, info, model, depth
+  File "E:\common\Python\lib\site-packages\rest_framework\serializers.py", line 1167, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "E:\common\Python\lib\site-packages\rest_framework\serializers.py", line 1279, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `username` is not valid for model `User`.
+2018-06-12 17:26:47,181 - all - INFO - views.py line:115-- timestamp : 1528795607157 
+2018-06-12 17:29:00,404 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 16, in createBlog
+    user = request.session[rb.get("token")]
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: '1f37be1f6426445b889bd67da4d9a4da'
+2018-06-12 17:29:27,126 - all - INFO - views.py line:115-- timestamp : 1528795766871 
+2018-06-12 17:32:40,628 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 16, in createBlog
+    user = request.session[rb.get("token")]
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: '824a65ddcadc4b07b9df814aebf8be04'
+2018-06-12 17:34:28,802 - all - INFO - views.py line:115-- timestamp : 1528796068510 
+2018-06-12 17:34:47,145 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 16, in createBlog
+    user = request.session[rb.get("token")]
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'ae799ec232cd4388a4afe9fb78c31a8d'
+2018-06-12 17:35:37,040 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 16, in createBlog
+    user = request.session[rb.get("token")]
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'ae799ec232cd4388a4afe9fb78c31a8d'
+2018-06-12 17:37:31,802 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 16, in createBlog
+    user = request.session[rb.get("token")]
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'ae799ec232cd4388a4afe9fb78c31a8d'
+2018-06-12 17:37:48,994 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 16, in createBlog
+    user = request.session[rb.get("token")]
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'ae799ec232cd4388a4afe9fb78c31a8d'
+2018-06-12 17:39:03,730 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 16, in createBlog
+    user = request.session[rb.get("token")]
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'ae799ec232cd4388a4afe9fb78c31a8d'
+2018-06-12 17:40:26,347 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 16, in createBlog
+    user = request.session[rb.get("token")]
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'ae799ec232cd4388a4afe9fb78c31a8d'
+2018-06-12 17:41:15,640 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 16, in createBlog
+    user = request.session[rb.get("token")]
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: 'ae799ec232cd4388a4afe9fb78c31a8d'
+2018-06-12 17:41:36,113 - all - INFO - views.py line:115-- timestamp : 1528796495806 
+2018-06-13 14:10:33,282 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django_redis\client\default.py", line 477, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 97, in __call__
+    response = self.process_response(request, response)
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\middleware.py", line 58, in process_response
+    request.session.save()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 56, in save
+    return self.create()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 153, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\common\Python\lib\site-packages\django\core\cache\backends\base.py", line 201, in __contains__
+    return self.has_key(key)
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 39, in _decorator
+    raise e.parent
+  File "E:\common\Python\lib\site-packages\django_redis\client\default.py", line 475, in has_key
+    return client.exists(key)
+  File "E:\common\Python\lib\site-packages\redis\client.py", line 951, in exists
+    return self.execute_command('EXISTS', name)
+  File "E:\common\Python\lib\site-packages\redis\client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 585, in send_packed_command
+    self.connect()
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+2018-06-13 14:45:24,510 - all - INFO - views.py line:115-- timestamp : 1528872324192 

@@ -1,0 +1,572 @@
+2018-08-10 20:24:32,232 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 20:24:34,070 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 20:27:58,901 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 20:28:00,670 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 20:31:14,471 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 20:31:16,259 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 20:34:57,893 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 20:34:59,616 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 20:40:36,173 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 20:40:37,887 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 20:41:14,484 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 20:41:16,622 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 20:54:22,384 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 20:54:24,519 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:04:20,817 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:04:23,251 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:04:45,711 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:04:47,511 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:12:02,321 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:12:04,046 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:12:10,625 - django.request - ERROR - exception.py line:118-- Internal Server Error: /day/upload/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\day\views.py", line 229, in upload
+    getSql(ncole,rowValues)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\day\views.py", line 256, in getSql
+    inres = rsSqlExe(ins, value)
+NameError: name 'ins' is not defined
+2018-08-10 21:12:27,563 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:12:29,313 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:12:42,983 - django.request - ERROR - exception.py line:118-- Internal Server Error: /day/upload/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\day\views.py", line 229, in upload
+    getSql(ncole,rowValues)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\day\views.py", line 256, in getSql
+    inres = rsSqlExe(sql, value)
+UnboundLocalError: local variable 'value' referenced before assignment
+2018-08-10 21:13:03,786 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:13:05,499 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:13:08,064 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:13:08,065 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:13:08,066 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:13:08,066 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:13:08,067 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:13:08,067 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:13:32,475 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:13:34,199 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:13:41,524 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:13:41,526 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:13:41,526 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:13:41,527 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:13:41,528 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:13:41,529 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:14:26,875 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:14:28,513 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:14:32,567 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:14:32,568 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:14:32,569 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:14:32,569 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:14:32,570 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:14:32,571 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:15:34,389 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:15:36,179 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:15:48,578 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:15:50,271 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:18:05,094 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:18:06,944 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:18:11,744 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:18:11,745 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:18:11,745 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:18:11,746 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:18:11,746 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:18:11,747 - all - ERROR - views.py line:83-- (1065, 'Query was empty') 
+2018-08-10 21:21:28,651 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:21:30,512 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:21:34,049 - all - ERROR - views.py line:83-- object of type 'NoneType' has no len() 
+2018-08-10 21:21:34,050 - all - ERROR - views.py line:83-- object of type 'NoneType' has no len() 
+2018-08-10 21:21:34,050 - all - ERROR - views.py line:83-- object of type 'NoneType' has no len() 
+2018-08-10 21:21:34,051 - all - ERROR - views.py line:83-- object of type 'NoneType' has no len() 
+2018-08-10 21:21:34,051 - all - ERROR - views.py line:83-- object of type 'NoneType' has no len() 
+2018-08-10 21:21:34,051 - all - ERROR - views.py line:83-- object of type 'NoneType' has no len() 
+2018-08-10 21:22:51,118 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:22:52,934 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:22:57,660 - all - ERROR - views.py line:83-- object of type 'NoneType' has no len() 
+2018-08-10 21:22:57,661 - all - ERROR - views.py line:83-- object of type 'NoneType' has no len() 
+2018-08-10 21:22:57,661 - all - ERROR - views.py line:83-- object of type 'NoneType' has no len() 
+2018-08-10 21:22:57,661 - all - ERROR - views.py line:83-- object of type 'NoneType' has no len() 
+2018-08-10 21:22:57,662 - all - ERROR - views.py line:83-- object of type 'NoneType' has no len() 
+2018-08-10 21:22:57,662 - all - ERROR - views.py line:83-- object of type 'NoneType' has no len() 
+2018-08-10 21:24:38,181 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:24:39,833 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:24:42,436 - django.request - ERROR - exception.py line:118-- Internal Server Error: /day/upload/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\day\views.py", line 229, in upload
+    getSql(ncole,rowValues)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\day\views.py", line 262, in getSql
+    value = {'column_0': colvalue[0], column_1: colvalue[1], 'column_2': colvalue[2],
+NameError: name 'column_1' is not defined
+2018-08-10 21:24:56,069 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:24:57,748 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:25:00,573 - all - ERROR - views.py line:83-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'2017-12-29 00:00:00','新的测试任务','http://www.cninfo.com.cn/cninfo-new' at line 1") 
+2018-08-10 21:25:00,603 - all - ERROR - views.py line:83-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'2018-01-18 00:00:00','新的测试任务','http://www.cninfo.com.cn/cninfo-new' at line 1") 
+2018-08-10 21:25:00,604 - all - ERROR - views.py line:83-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'2017-07-24 00:00:00','新的测试任务','http://www.cninfo.com.cn/cninfo-new' at line 1") 
+2018-08-10 21:25:00,604 - all - ERROR - views.py line:83-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'2018-01-05 00:00:00','新的测试任务','http://www.cninfo.com.cn/cninfo-new' at line 1") 
+2018-08-10 21:25:00,605 - all - ERROR - views.py line:83-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'2018-04-27 09:59:56','新的测试任务','http://www.cninfo.com.cn/cninfo-new' at line 1") 
+2018-08-10 21:25:00,606 - all - ERROR - views.py line:83-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.'2017-12-29 00:00:00','新的测试任务','http://www.cninfo.com.cn/cninfo-new' at line 1") 
+2018-08-10 21:25:34,402 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:25:36,072 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:25:39,004 - all - ERROR - views.py line:83-- (1054, "Unknown column 'column_0' in 'field list'") 
+2018-08-10 21:25:39,005 - all - ERROR - views.py line:83-- (1054, "Unknown column 'column_0' in 'field list'") 
+2018-08-10 21:25:39,006 - all - ERROR - views.py line:83-- (1054, "Unknown column 'column_0' in 'field list'") 
+2018-08-10 21:25:39,006 - all - ERROR - views.py line:83-- (1054, "Unknown column 'column_0' in 'field list'") 
+2018-08-10 21:25:39,007 - all - ERROR - views.py line:83-- (1054, "Unknown column 'column_0' in 'field list'") 
+2018-08-10 21:25:39,007 - all - ERROR - views.py line:83-- (1054, "Unknown column 'column_0' in 'field list'") 
+2018-08-10 21:27:36,631 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:27:38,893 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:32:19,204 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:32:21,074 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:34:05,843 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:34:08,148 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:35:13,387 - all - ERROR - views.py line:83-- (1364, "Field 'createtime' doesn't have a default value") 
+2018-08-10 21:35:13,388 - all - ERROR - views.py line:83-- (1364, "Field 'createtime' doesn't have a default value") 
+2018-08-10 21:35:13,389 - all - ERROR - views.py line:83-- (1364, "Field 'createtime' doesn't have a default value") 
+2018-08-10 21:35:13,390 - all - ERROR - views.py line:83-- (1364, "Field 'createtime' doesn't have a default value") 
+2018-08-10 21:35:13,390 - all - ERROR - views.py line:83-- (1364, "Field 'createtime' doesn't have a default value") 
+2018-08-10 21:35:13,391 - all - ERROR - views.py line:83-- (1364, "Field 'createtime' doesn't have a default value") 
+2018-08-10 21:40:14,733 - django.request - ERROR - exception.py line:118-- Internal Server Error: /day/upload/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\day\views.py", line 186, in upload
+    user = request.session[request.GET.get("token")]
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+KeyError: '02e07dbc5b87431b8bde065d9e0b6aaf'
+2018-08-10 21:40:25,502 - all - INFO - views.py line:119-- timestamp : 1533908425192 
+2018-08-10 21:44:28,559 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:44:30,666 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:46:58,921 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:47:00,678 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:48:14,691 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:48:16,392 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:49:46,418 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:49:48,097 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:50:16,153 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:50:17,844 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 21:51:06,712 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 21:51:08,389 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 22:25:08,134 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 22:25:09,932 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 22:40:53,769 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 23:20:28,996 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 23:21:26,033 - all - INFO - views.py line:119-- timestamp : 1533914485703 
+2018-08-10 23:23:04,813 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 23:23:06,821 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 23:23:21,767 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 23:23:23,595 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 23:23:55,824 - all - ERROR - views.py line:83-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT @@IDENTITY' at line 1") 
+2018-08-10 23:26:02,238 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 23:26:03,969 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 23:27:32,771 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 23:27:34,550 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 23:28:24,211 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 23:28:25,967 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 23:30:36,031 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 23:30:37,635 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 23:35:17,649 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 23:35:19,433 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 23:35:30,535 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 23:35:32,330 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 23:37:48,183 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 23:37:50,016 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 23:37:58,724 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 23:38:00,342 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 00:27:21,073 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 00:27:22,669 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 00:28:11,099 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 00:28:12,880 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 00:29:14,454 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 00:29:16,341 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 01:05:13,215 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 01:05:15,332 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 01:06:45,918 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 01:06:47,658 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 01:07:21,600 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 01:07:23,644 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 01:38:20,990 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 01:38:23,107 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 20:12:38,689 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 20:13:36,977 - all - INFO - views.py line:119-- timestamp : 1533989616626 
+2018-08-11 20:21:20,355 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 20:21:22,189 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 20:21:26,125 - django.request - ERROR - exception.py line:118-- Internal Server Error: /day/upload/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\day\views.py", line 230, in upload
+    print('insert id '+s[0]['MO'])
+TypeError: must be str, not int
+2018-08-11 20:21:48,347 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 20:21:50,045 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 20:27:36,456 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 20:27:38,095 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 20:36:21,595 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 20:46:20,638 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 20:48:10,534 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 20:48:12,458 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 20:48:15,156 - django.request - ERROR - exception.py line:118-- Internal Server Error: /day/upload/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\day\views.py", line 232, in upload
+    print('insert sd ' + s[0]['MO'])
+TypeError: must be str, not int
+2018-08-11 20:50:28,567 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 20:50:30,300 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 20:50:35,221 - django.request - ERROR - exception.py line:118-- Internal Server Error: /day/upload/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\day\views.py", line 232, in upload
+    print('insert sd ' + s[0]['MO'])
+TypeError: must be str, not int
+2018-08-11 20:50:46,648 - django.request - ERROR - exception.py line:118-- Internal Server Error: /day/upload/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\day\views.py", line 232, in upload
+    print('insert sd ' + s[0]['MO'])
+TypeError: must be str, not int
+2018-08-11 20:51:48,031 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 20:51:49,644 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 21:01:36,963 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 21:01:38,646 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 21:38:28,681 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 21:38:30,410 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 21:39:07,203 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-11 21:39:08,820 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-11 22:04:56,515 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-12 16:18:48,510 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-12 16:18:53,209 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-12 16:19:14,297 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-12 16:19:15,514 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-12 16:20:44,585 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-12 16:21:28,345 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-08-12 16:21:37,576 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-08-12 16:21:46,050 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-08-12 16:21:56,031 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-08-12 16:22:27,538 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-08-12 16:22:42,780 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-08-12 16:23:09,399 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-08-12 16:23:22,661 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-08-12 16:23:54,100 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-08-12 16:24:00,483 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-08-12 16:25:18,710 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-08-12 16:25:22,222 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-08-12 16:25:23,704 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-08-12 16:25:24,642 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-08-12 16:25:26,556 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-08-12 16:34:09,035 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-12 16:36:25,641 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-12 16:37:29,860 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-12 16:37:31,524 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-12 16:38:25,346 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-12 16:38:27,073 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-12 16:38:56,470 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-12 16:38:58,164 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-12 16:39:39,629 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-12 16:39:41,317 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-12 16:41:13,857 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-12 16:41:15,695 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-12 16:41:40,379 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-12 16:41:42,041 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-12 16:42:26,531 - all - INFO - views.py line:129-- timestamp : 1534063346175 
+2018-08-12 17:15:45,181 - all - INFO - views.py line:129-- timestamp : 1534065344859 
+2018-08-12 17:16:12,786 - all - INFO - views.py line:129-- timestamp : 1534065372468 
+2018-08-12 17:16:29,191 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-12 17:16:30,872 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-12 17:16:44,417 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/getdepartments/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 77, in getDepartment
+    result = queryset_to_json(departments)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\utils\QuerySetToJson.py", line 71, in queryset_to_json
+    obj_arr.append(o.toDict())
+AttributeError: 'Department' object has no attribute 'toDict'
+2018-08-12 17:16:54,477 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/getdepartments/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 77, in getDepartment
+    result = queryset_to_json(departments)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\utils\QuerySetToJson.py", line 71, in queryset_to_json
+    obj_arr.append(o.toDict())
+AttributeError: 'Department' object has no attribute 'toDict'
+2018-08-12 17:18:28,667 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-12 17:18:30,365 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-12 17:18:35,440 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-12 17:18:37,228 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-12 17:18:44,974 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-12 17:18:46,692 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-12 17:18:50,821 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/getdepartments/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 77, in getDepartment
+    result = queryset_to_json(departments)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 87, in queryset_to_json
+    obj_arr.append(o.toDict())
+AttributeError: 'Department' object has no attribute 'toDict'
+2018-08-12 17:20:51,173 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-12 17:20:52,766 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 

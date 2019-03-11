@@ -1,0 +1,51 @@
+version: 1
+disable_existing_loggers: false
+
+formatters:
+  simple:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(filename)s line:%(lineno)d-- %(message)s '
+
+filters:
+  time_info:
+    levelname: INFO
+
+loggers:
+  all:
+    handlers: [all,error,debug]
+    propagate: false
+  tornado:
+    handlers: [all]
+    propagate: false
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: simple
+    stream: ext://sys.stdout
+  all:
+    class: logging.handlers.TimedRotatingFileHandler
+    level: INFO
+    formatter: simple
+    when: H
+    filename: ./log/iot_info.log
+#    filename: /opt/TimerServer/TimerServerLOG/TimerServer_info.log
+  error:
+    class: logging.handlers.TimedRotatingFileHandler
+    level: ERROR
+    formatter: simple
+    when: H
+    filename: ./log/iot_ERROR.log
+  debug:
+    class: logging.handlers.TimedRotatingFileHandler
+    level: DEBUG
+    formatter: simple
+    when: H
+    filename: ./log/iot_DEBUG.log
+#    filename: /opt/TimerServer/TimerServerLOG/TimerServer_ERROR.log
+
+
+root:
+  level: INFO
+  handlers: [console, all]
+  propagate: true

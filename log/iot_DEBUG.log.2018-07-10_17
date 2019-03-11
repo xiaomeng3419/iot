@@ -1,0 +1,75 @@
+2018-06-28 20:46:09,809 - all - INFO - views.py line:119-- timestamp : 1530189969501 
+2018-06-28 21:13:17,683 - all - INFO - views.py line:119-- timestamp : 1530191597374 
+2018-06-29 21:29:43,561 - all - INFO - views.py line:119-- timestamp : 1530278983251 
+2018-06-29 21:29:57,814 - all - ERROR - views.py line:61-- <QuerySet []> 
+2018-06-30 16:10:07,592 - all - INFO - views.py line:119-- timestamp : 1530346207578 
+2018-06-30 16:12:35,380 - all - ERROR - views.py line:61-- <QuerySet []> 
+2018-07-09 21:55:20,076 - all - INFO - views.py line:51-- get news : 
+2018-07-09 21:55:20,084 - all - ERROR - views.py line:83-- (1146, "Table 'mydatabase.zpslider_tnews' doesn't exist") 
+2018-07-09 21:55:20,084 - all - ERROR - views.py line:65-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-09 21:56:20,999 - all - INFO - views.py line:51-- get news : 
+2018-07-09 21:56:21,004 - all - ERROR - views.py line:85-- (1146, "Table 'mydatabase.zpslider_tnews' doesn't exist") 
+2018-07-09 21:56:21,006 - all - ERROR - views.py line:66-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-09 21:56:58,484 - all - INFO - views.py line:51-- get news : 
+2018-07-09 21:56:58,490 - all - INFO - views.py line:81-- [{'ID': 'hexfcvk8433023', 'title': '时间线梳理 中美贸易摩擦是如何步步升级的(图)', 'publishTime': '2018年07月06日 22:54'}] 
+2018-07-09 22:01:25,227 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:01:25,239 - all - INFO - views.py line:81-- [] 
+2018-07-09 22:11:56,887 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:11:56,892 - all - ERROR - views.py line:91-- not all arguments converted during string formatting 
+2018-07-09 22:11:56,892 - all - ERROR - views.py line:72-- Object of type 'TypeError' is not JSON serializable 
+2018-07-09 22:13:27,260 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:13:27,265 - all - ERROR - views.py line:91-- not all arguments converted during string formatting 
+2018-07-09 22:13:27,266 - all - ERROR - views.py line:72-- Object of type 'TypeError' is not JSON serializable 
+2018-07-09 22:18:29,563 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:18:29,563 - all - ERROR - views.py line:72-- 'dict' object has no attribute 'has_key' 
+2018-07-09 22:21:04,995 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:21:04,995 - all - ERROR - views.py line:72-- 'dict' object has no attribute 'has_key' 
+2018-07-09 22:22:31,450 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:22:31,464 - all - ERROR - views.py line:91-- not all arguments converted during string formatting 
+2018-07-09 22:22:31,465 - all - ERROR - views.py line:72-- Object of type 'TypeError' is not JSON serializable 
+2018-07-09 22:23:54,770 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:23:54,774 - all - ERROR - views.py line:92-- not all arguments converted during string formatting 
+2018-07-09 22:23:54,774 - all - ERROR - views.py line:73-- Object of type 'TypeError' is not JSON serializable 
+2018-07-09 22:26:48,169 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:26:48,188 - all - INFO - views.py line:88-- [{'ID': 'hexfcvk8433023', 'title': '时间线梳理 中美贸易摩擦是如何步步升级的(图)', 'publishTime': '2018年07月06日 22:54'}, {'ID': 'hexfcvk8179665', 'title': '美国那船大豆可能“凉”了 这些国家大豆却笑了', 'publishTime': '2018年07月06日 21:57'}, {'ID': 'hexfcvk8178541', 'title': '普吉游船倾覆事故亲历者:船上的坐垫都被大风卷跑', 'publishTime': '2018年07月06日 21:53'}, {'ID': 'hexfcvk8137674', 'title': '江苏泰兴数万吨废料污泥堆长江边追踪：5人被处分', 'publishTime': '2018年07月06日 21:46'}, {'ID': 'hexfcvk8029483', 'title': '侠客岛：中美贸易战第一天 给特朗普支个招', 'publishTime': '2018年07月06日 21:24'}, {'ID': 'hexfcvk7981528', 'title': '这两天世界都静等“关键时刻” 台湾省也发生大事', 'publishTime': '2018年07月06日 20:45'}, {'ID': 'hexfcvk7953278', 'title': '香港末代港督大肆吹捧“港独” 港媒斥责：太无耻', 'publishTime': '2018年07月06日 20:34'}, {'ID': 'hexfcvk7770890', 'title': '中国在世贸组织起诉美国301征税措施', 'publishTime': '2018年07月06日 20:33'}, {'ID': 'hexfcvk7733658', 'title': '外媒：泰国沉船事故已致33名中国人遇难', 'publishTime': '2018年07月06日 19:51'}, {'ID': 'hexfcvk7394872', 'title': '泰驻华使馆:向普吉游船事故受灾游客亲友表示慰问', 'publishTime': '2018年07月06日 19:10'}, {'ID': 'hexfcvk7341253', 'title': '专家谈普吉事故：72小时 船上这些地方生还可能大', 'publishTime': '2018年07月06日 18:52'}, {'ID': 'hexfcvk7268156', 'title': '吴敦义喊话蔡英文:立即兑现10年不缺电不涨价支票', 'publishTime': '2018年07月06日 18:48'}, {'ID': 'hexfcvk7235588', 'title': '港媒:解放军已发出预警信号“台独”切勿错判形势', 'publishTime': '2018年07月06日 18:09'}, {'ID': 'hexfcvk7128264', 'title': '贸易战打响后中美双方还会继续谈判吗?外交部回应', 'publishTime': '2018年07月06日 18:27'}, {'ID': 'hexfcvk7125619', 'title': '普吉岛翻船事故沉船画面曝光 事故海域浪高5米', 'publishTime': '2018年07月06日 18:26'}, {'ID': 'hexfcvk7076396', 'title': '大连原常务副市长袁克力被双开', 'publishTime': '2018年07月06日 18:19'}, {'ID': 'hexfcvk7060877', 'title': '外交部:万村通项目让非偏远地区小学生看到世界杯', 'publishTime': '2018年07月06日 16:45'}, {'ID': 'hexfcvk6874142', 'title': '甘肃文县暴洪泥石流致212个村逾4万人受灾(图)', 'publishTime': '2018年07月06日 17:42'}, {'ID': 'hexfcvk6774274', 'title': '哈尔滨人大原副主任贾剑涛被双开:生活放纵不老实', 'publishTime': '2018年07月06日 17:31'}, {'ID': 'hexfcvk6721243', 'title': '航站楼可放下水立方 北京新机场内部究竟长啥样？', 'publishTime': '2018年07月06日 17:25'}, {'ID': 'hexfcvk6553152', 'title': '外交部回应泰国游船事故:多部委联合工作组正赴泰', 'publishTime': '2018年07月06日 16:49'}, {'ID': 'hexfcvk6553169', 'title': '胡春华将访问布基纳法索有何特殊意义?外交部回应', 'publishTime': '2018年07月06日 16:54'}] 
+2018-07-09 22:28:28,450 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:28:28,456 - all - INFO - views.py line:89-- <Page 1 of 8> 
+2018-07-09 22:28:28,456 - all - ERROR - views.py line:73-- Object of type 'Page' is not JSON serializable 
+2018-07-09 22:30:56,863 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:30:56,868 - all - ERROR - views.py line:96-- 'Page' object has no attribute 'description' 
+2018-07-09 22:30:56,868 - all - ERROR - views.py line:73-- Object of type 'AttributeError' is not JSON serializable 
+2018-07-09 22:32:07,665 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:32:07,671 - all - ERROR - views.py line:97-- 'Page' object has no attribute 'description' 
+2018-07-09 22:32:07,671 - all - ERROR - views.py line:73-- Object of type 'AttributeError' is not JSON serializable 
+2018-07-09 22:32:29,009 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:32:29,016 - all - ERROR - views.py line:97-- 'list' object has no attribute 'description' 
+2018-07-09 22:32:29,016 - all - ERROR - views.py line:73-- Object of type 'AttributeError' is not JSON serializable 
+2018-07-09 22:36:14,159 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:36:14,164 - all - ERROR - views.py line:94-- 'Cursor' object has no attribute 'page' 
+2018-07-09 22:36:14,164 - all - ERROR - views.py line:73-- Object of type 'AttributeError' is not JSON serializable 
+2018-07-09 22:36:41,811 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:36:41,816 - all - INFO - views.py line:90-- <Page 1 of 8> 
+2018-07-09 22:36:41,816 - all - ERROR - views.py line:73-- Object of type 'Page' is not JSON serializable 
+2018-07-09 22:37:56,971 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:37:56,977 - all - INFO - views.py line:90-- <Page 1 of 8> 
+2018-07-09 22:37:56,977 - all - ERROR - views.py line:73-- Object of type 'Page' is not JSON serializable 
+2018-07-09 22:39:56,970 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:39:56,976 - all - INFO - views.py line:91-- <Page 1 of 8> 
+2018-07-09 22:39:56,976 - all - ERROR - views.py line:73-- Object of type 'Page' is not JSON serializable 
+2018-07-09 22:40:44,397 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:40:44,403 - all - INFO - views.py line:91-- [{'ID': 'hexfcvk8433023', 'title': '时间线梳理 中美贸易摩擦是如何步步升级的(图)', 'publishTime': '2018年07月06日 22:54'}, {'ID': 'hexfcvk8179665', 'title': '美国那船大豆可能“凉”了 这些国家大豆却笑了', 'publishTime': '2018年07月06日 21:57'}, {'ID': 'hexfcvk8178541', 'title': '普吉游船倾覆事故亲历者:船上的坐垫都被大风卷跑', 'publishTime': '2018年07月06日 21:53'}] 
+2018-07-09 22:40:44,403 - all - ERROR - views.py line:73-- Object of type 'Page' is not JSON serializable 
+2018-07-09 22:41:09,640 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:46:43,992 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:46:44,005 - all - ERROR - views.py line:96-- 'Page' object has no attribute 'num_pages' 
+2018-07-09 22:46:44,005 - all - ERROR - views.py line:73-- Object of type 'AttributeError' is not JSON serializable 
+2018-07-09 22:51:31,114 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:51:53,025 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:52:03,468 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:52:03,481 - all - ERROR - views.py line:98-- That page contains no results 
+2018-07-09 22:52:03,482 - all - ERROR - views.py line:73-- Object of type 'EmptyPage' is not JSON serializable 
+2018-07-09 22:55:28,680 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:56:36,808 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:56:44,849 - all - INFO - views.py line:51-- get news : 
+2018-07-09 22:56:55,398 - all - INFO - views.py line:51-- get news : 
+2018-07-10 17:38:24,353 - all - INFO - views.py line:119-- timestamp : 1531215504043 

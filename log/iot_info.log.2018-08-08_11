@@ -1,0 +1,13 @@
+2018-07-19 21:51:18,071 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-08 11:14:51,454 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-08 11:15:17,996 - all - INFO - views.py line:119-- timestamp : 1533698117414 
+2018-08-08 11:15:29,420 - all - INFO - views.py line:119-- timestamp : 1533698129410 
+2018-08-08 11:15:33,112 - all - INFO - views.py line:119-- timestamp : 1533698133107 
+2018-08-08 11:15:46,369 - all - INFO - views.py line:58-- get news : 
+2018-08-08 11:15:46,372 - all - INFO - views.py line:145-- get news : 
+2018-08-08 11:15:46,414 - all - INFO - views.py line:126-- get news : 
+2018-08-08 11:15:46,418 - all - INFO - views.py line:109-- get news : 
+2018-08-08 11:17:12,284 - all - INFO - views.py line:58-- get news : 
+2018-08-08 11:17:12,302 - all - INFO - views.py line:145-- get news : 
+2018-08-08 11:17:12,316 - all - INFO - views.py line:126-- get news : 
+2018-08-08 11:17:12,332 - all - INFO - views.py line:109-- get news : 

@@ -1,0 +1,9 @@
+.el-submenu__title i {
+    position: absolute ;
+    color: #909399;
+    color: rgb(255, 255, 255);
+    margin-left: 21px;
+    margin-bottom: 50px;
+    border-bottom-color: transparent;
+    background-color: transparent;
+}

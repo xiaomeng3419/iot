@@ -1,0 +1,41 @@
+2018-08-10 14:55:00,082 - all - INFO - views.py line:119-- timestamp : 1533884099792 
+2018-08-10 15:33:29,005 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 15:33:31,219 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 15:36:22,913 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 15:36:24,980 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 15:36:30,002 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 15:36:31,851 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 15:38:57,023 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 15:38:58,667 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 15:47:43,211 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 15:47:45,105 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 15:49:14,922 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 15:49:16,468 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 15:50:45,746 - all - ERROR - views.py line:83-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1") 
+2018-08-10 15:52:34,863 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 15:52:36,856 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 15:53:05,001 - all - ERROR - views.py line:83-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'2018-08-08 15:49:42')' at line 1") 
+2018-08-10 15:55:32,194 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 15:55:33,811 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 15:55:37,875 - all - ERROR - views.py line:83-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'2018-08-08 15:49:42')' at line 1") 
+2018-08-10 15:59:00,723 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 15:59:02,298 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 15:59:09,798 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 15:59:11,625 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 15:59:14,653 - django.request - ERROR - exception.py line:118-- Internal Server Error: /day/upload/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\day\views.py", line 214, in upload
+    colfield.append(headerVal[i])
+UnboundLocalError: local variable 'headerVal' referenced before assignment
+2018-08-10 15:59:35,041 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 15:59:36,608 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 15:59:40,820 - all - ERROR - views.py line:83-- (1146, "Table 'mydatabase.day_execel_type' doesn't exist") 
+2018-08-10 16:00:07,155 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-10 16:00:08,834 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-10 16:00:19,700 - all - ERROR - views.py line:83-- (1241, 'Operand should contain 1 column(s)') 

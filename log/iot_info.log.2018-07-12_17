@@ -1,0 +1,369 @@
+2018-07-12 14:43:49,609 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 14:43:54,185 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 14:44:09,801 - all - INFO - views.py line:23-- get news : 
+2018-07-12 14:44:35,595 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 14:44:37,405 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 14:46:05,117 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 14:46:14,695 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 14:46:49,939 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 14:46:53,922 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 14:46:59,059 - all - INFO - views.py line:23-- get news : 
+2018-07-12 14:48:33,419 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 14:48:37,604 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 14:48:46,151 - all - INFO - views.py line:23-- get news : 
+2018-07-12 14:48:46,160 - all - ERROR - views.py line:89-- 'Id' 
+2018-07-12 14:49:06,028 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 14:49:10,099 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 14:49:16,394 - all - INFO - views.py line:23-- get news : 
+2018-07-12 14:54:34,472 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 14:54:36,321 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 14:55:29,112 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 14:55:31,022 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 14:55:34,273 - all - INFO - views.py line:119-- timestamp : 1531378533937 
+2018-07-12 14:55:45,777 - all - INFO - views.py line:51-- get news : 
+2018-07-12 14:55:51,431 - all - INFO - views.py line:23-- get news : 
+2018-07-12 14:55:57,565 - all - INFO - views.py line:23-- get news : 
+2018-07-12 14:58:05,568 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 14:58:07,553 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 14:58:14,160 - all - INFO - views.py line:23-- get news : 
+2018-07-12 14:58:47,794 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 14:58:49,856 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 14:59:22,474 - all - INFO - views.py line:23-- get news : 
+2018-07-12 15:02:52,717 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 15:02:54,545 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 15:03:03,331 - all - INFO - views.py line:23-- get news : 
+2018-07-12 15:03:22,007 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 15:03:23,946 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 15:04:05,543 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 15:04:07,387 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 15:04:10,751 - all - INFO - views.py line:23-- get news : 
+2018-07-12 15:04:18,184 - all - INFO - views.py line:23-- get news : 
+2018-07-12 15:19:27,459 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 15:19:29,275 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 15:20:34,401 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 15:20:36,361 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 15:23:08,566 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 15:23:10,399 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 15:25:54,553 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 15:25:56,555 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 15:31:18,265 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 15:31:20,467 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 15:35:07,183 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 15:35:08,969 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 15:38:42,574 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 15:38:44,595 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 15:41:57,837 - all - INFO - views.py line:51-- get news : 
+2018-07-12 15:42:12,244 - all - INFO - views.py line:51-- get news : 
+2018-07-12 15:42:12,269 - all - INFO - views.py line:129-- get news : 
+2018-07-12 15:42:12,274 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:42:12,274 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:42:29,482 - all - INFO - views.py line:51-- get news : 
+2018-07-12 15:42:29,485 - all - INFO - views.py line:129-- get news : 
+2018-07-12 15:42:29,492 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:42:29,492 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:43:38,304 - all - INFO - views.py line:51-- get news : 
+2018-07-12 15:43:38,328 - all - INFO - views.py line:129-- get news : 
+2018-07-12 15:43:38,335 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:43:38,335 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:43:42,394 - all - INFO - views.py line:51-- get news : 
+2018-07-12 15:43:42,397 - all - INFO - views.py line:129-- get news : 
+2018-07-12 15:43:42,404 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:43:42,405 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:44:45,840 - all - INFO - views.py line:51-- get news : 
+2018-07-12 15:44:45,862 - all - INFO - views.py line:129-- get news : 
+2018-07-12 15:44:45,868 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:44:45,869 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:44:50,847 - all - INFO - views.py line:51-- get news : 
+2018-07-12 15:44:50,850 - all - INFO - views.py line:129-- get news : 
+2018-07-12 15:44:50,857 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:44:50,858 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:45:10,920 - all - INFO - views.py line:51-- get news : 
+2018-07-12 15:45:10,939 - all - INFO - views.py line:129-- get news : 
+2018-07-12 15:45:10,945 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:45:10,946 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:45:14,944 - all - INFO - views.py line:51-- get news : 
+2018-07-12 15:45:14,946 - all - INFO - views.py line:129-- get news : 
+2018-07-12 15:45:14,953 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:45:14,954 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:46:26,961 - all - INFO - views.py line:51-- get news : 
+2018-07-12 15:46:26,962 - all - INFO - views.py line:129-- get news : 
+2018-07-12 15:46:26,969 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:46:26,970 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:46:53,802 - all - INFO - views.py line:51-- get news : 
+2018-07-12 15:46:53,807 - all - INFO - views.py line:129-- get news : 
+2018-07-12 15:46:53,813 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:46:53,813 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:47:54,306 - all - INFO - views.py line:51-- get news : 
+2018-07-12 15:47:54,329 - all - INFO - views.py line:129-- get news : 
+2018-07-12 15:47:54,334 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:47:54,334 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:48:05,665 - all - INFO - views.py line:23-- get news : 
+2018-07-12 15:48:05,667 - all - INFO - views.py line:129-- get news : 
+2018-07-12 15:48:05,672 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:48:05,673 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:48:14,555 - all - INFO - views.py line:23-- get news : 
+2018-07-12 15:48:14,619 - all - INFO - views.py line:129-- get news : 
+2018-07-12 15:48:14,632 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:48:14,632 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:48:32,752 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 15:48:34,552 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 15:48:38,895 - all - INFO - views.py line:129-- get news : 
+2018-07-12 15:48:38,895 - all - INFO - views.py line:23-- get news : 
+2018-07-12 15:48:38,922 - all - ERROR - views.py line:140-- Object of type 'Decimal' is not JSON serializable 
+2018-07-12 15:49:01,964 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 15:49:04,156 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 15:49:08,068 - all - INFO - views.py line:23-- get news : 
+2018-07-12 15:49:08,068 - all - INFO - views.py line:129-- get news : 
+2018-07-12 15:49:08,084 - all - ERROR - views.py line:141-- Object of type 'Decimal' is not JSON serializable 
+2018-07-12 15:52:01,276 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 15:58:00,958 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 15:58:08,970 - all - INFO - views.py line:129-- get news : 
+2018-07-12 15:58:08,970 - all - INFO - views.py line:23-- get news : 
+2018-07-12 15:58:08,976 - all - ERROR - views.py line:81-- isinstance() arg 2 must be a type or tuple of types 
+2018-07-12 15:58:08,976 - all - ERROR - views.py line:141-- Object of type 'TypeError' is not JSON serializable 
+2018-07-12 15:58:08,978 - all - ERROR - views.py line:81-- isinstance() arg 2 must be a type or tuple of types 
+2018-07-12 15:58:08,978 - all - ERROR - views.py line:63-- 'TypeError' object is not subscriptable 
+2018-07-12 15:59:39,034 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 15:59:40,988 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 16:01:05,199 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 16:01:09,587 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 16:01:15,619 - all - INFO - views.py line:128-- get news : 
+2018-07-12 16:01:15,619 - all - INFO - views.py line:23-- get news : 
+2018-07-12 16:01:15,626 - all - ERROR - views.py line:96-- isinstance() arg 2 must be a type or tuple of types 
+2018-07-12 16:01:15,626 - all - ERROR - views.py line:140-- Object of type 'TypeError' is not JSON serializable 
+2018-07-12 16:28:49,723 - all - INFO - views.py line:23-- get news : 
+2018-07-12 16:28:49,726 - all - INFO - views.py line:128-- get news : 
+2018-07-12 16:28:49,749 - all - ERROR - views.py line:96-- isinstance() arg 2 must be a type or tuple of types 
+2018-07-12 16:28:49,749 - all - ERROR - views.py line:140-- Object of type 'TypeError' is not JSON serializable 
+2018-07-12 16:31:46,910 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 16:31:48,867 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 16:31:53,590 - all - INFO - views.py line:23-- get news : 
+2018-07-12 16:31:53,590 - all - INFO - views.py line:128-- get news : 
+2018-07-12 16:31:53,596 - all - ERROR - views.py line:96-- isinstance() arg 2 must be a type or tuple of types 
+2018-07-12 16:31:53,597 - all - ERROR - views.py line:140-- Object of type 'TypeError' is not JSON serializable 
+2018-07-12 16:33:51,125 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 16:34:08,759 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 16:34:14,808 - all - INFO - views.py line:128-- get news : 
+2018-07-12 16:34:14,809 - all - INFO - views.py line:23-- get news : 
+2018-07-12 16:34:30,513 - all - INFO - views.py line:51-- get news : 
+2018-07-12 16:34:30,517 - all - INFO - views.py line:128-- get news : 
+2018-07-12 16:34:31,781 - all - INFO - views.py line:23-- get news : 
+2018-07-12 16:34:31,783 - all - INFO - views.py line:128-- get news : 
+2018-07-12 16:36:05,115 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 16:36:06,913 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 16:37:01,326 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 16:37:03,219 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 16:37:14,418 - all - INFO - views.py line:23-- get news : 
+2018-07-12 16:37:14,418 - all - INFO - views.py line:128-- get news : 
+2018-07-12 16:47:54,748 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 16:47:56,646 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 16:48:09,595 - all - INFO - views.py line:51-- get news : 
+2018-07-12 16:48:09,604 - all - INFO - views.py line:128-- get news : 
+2018-07-12 16:48:27,535 - all - INFO - views.py line:51-- get news : 
+2018-07-12 16:48:27,538 - all - INFO - views.py line:128-- get news : 
+2018-07-12 16:48:51,919 - all - INFO - views.py line:119-- timestamp : 1531385331605 
+2018-07-12 16:49:03,512 - all - ERROR - views.py line:61-- <QuerySet []> 
+2018-07-12 16:49:18,054 - all - INFO - views.py line:51-- get news : 
+2018-07-12 16:49:18,057 - all - INFO - views.py line:128-- get news : 
+2018-07-12 16:49:37,034 - all - INFO - views.py line:51-- get news : 
+2018-07-12 16:49:37,036 - all - INFO - views.py line:128-- get news : 
+2018-07-12 16:49:50,656 - all - INFO - views.py line:51-- get news : 
+2018-07-12 16:49:50,658 - all - INFO - views.py line:128-- get news : 
+2018-07-12 16:50:45,604 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 16:50:47,606 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 16:50:54,487 - all - INFO - views.py line:51-- get news : 
+2018-07-12 16:50:54,497 - all - INFO - views.py line:126-- get news : 
+2018-07-12 16:54:22,181 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 16:54:24,234 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 16:54:57,958 - all - INFO - views.py line:51-- get news : 
+2018-07-12 16:54:57,975 - all - INFO - views.py line:145-- get news : 
+2018-07-12 16:54:57,980 - all - ERROR - views.py line:94-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%(userId)s GROUP BY a.user_id ORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 16:54:57,980 - all - ERROR - views.py line:159-- 'ProgrammingError' object does not support indexing 
+2018-07-12 16:54:57,988 - all - INFO - views.py line:51-- get news : 
+2018-07-12 16:54:58,003 - all - INFO - views.py line:145-- get news : 
+2018-07-12 16:54:58,008 - all - ERROR - views.py line:94-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%(userId)s GROUP BY a.user_id ORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 16:54:58,008 - all - ERROR - views.py line:159-- 'ProgrammingError' object does not support indexing 
+2018-07-12 16:54:58,017 - all - INFO - views.py line:51-- get news : 
+2018-07-12 16:54:58,034 - all - INFO - views.py line:145-- get news : 
+2018-07-12 16:54:58,040 - all - ERROR - views.py line:94-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%(userId)s GROUP BY a.user_id ORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 16:54:58,040 - all - ERROR - views.py line:159-- 'ProgrammingError' object does not support indexing 
+2018-07-12 16:55:45,240 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 16:55:47,169 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 16:55:52,260 - all - INFO - views.py line:51-- get news : 
+2018-07-12 16:55:52,270 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:05:52,664 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:05:52,689 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:05:52,724 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:05:52,746 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:05:52,755 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:05:52,768 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:09:57,806 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:09:57,829 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:09:57,845 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:09:57,864 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:09:57,882 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:09:57,903 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:10:22,743 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:10:22,765 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:10:22,784 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:10:22,803 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:10:22,826 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:10:22,849 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:10:22,862 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:10:22,882 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:10:22,890 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:10:43,432 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 17:10:45,471 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 17:10:53,747 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:10:53,758 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:10:53,764 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:12:51,445 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:12:51,467 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:12:51,488 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:12:51,503 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:12:51,508 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:12:51,524 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:12:51,543 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:12:51,550 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:12:51,570 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:13:04,205 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:13:04,207 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:13:04,221 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:14:22,015 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:14:22,036 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:14:22,054 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:14:22,070 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:14:22,086 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:14:22,102 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:14:22,116 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:14:22,133 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:14:22,148 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:15:10,331 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:15:10,349 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:15:10,377 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:15:10,395 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:15:10,416 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:15:10,432 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:15:10,447 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:15:10,463 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:15:10,477 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:15:37,076 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:15:37,092 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:15:37,107 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:15:37,122 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:15:37,136 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:15:37,150 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:15:37,164 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:15:37,219 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:15:37,234 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:15:41,972 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:15:41,976 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:15:41,977 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:16:12,410 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:16:12,430 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:16:12,451 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:16:12,467 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:16:12,489 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:16:12,508 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:16:12,527 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:16:12,534 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:16:12,549 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:16:18,662 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:16:18,665 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:16:18,667 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:16:51,565 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:16:51,584 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:16:51,601 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:16:51,619 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:16:51,633 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:16:51,647 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:16:51,659 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:16:51,674 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:16:51,688 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:16:55,431 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:16:55,436 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:16:55,439 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:17:03,131 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:17:03,149 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:17:03,163 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:17:03,177 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:17:03,192 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:17:03,207 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:17:03,219 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:17:03,231 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:17:03,244 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:17:55,966 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:17:55,985 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:17:56,000 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:17:56,015 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:17:56,032 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:17:56,048 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:17:56,063 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:17:56,079 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:17:56,095 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:19:37,721 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:19:37,745 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:19:37,774 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:19:37,789 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:19:37,807 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:19:37,821 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:19:37,835 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:19:37,855 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:19:37,855 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:19:43,564 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:19:43,569 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:19:43,572 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:19:47,865 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:19:47,867 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:19:47,869 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:19:52,298 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:19:52,302 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:19:52,305 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:19:52,325 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:19:52,326 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:19:52,331 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:19:52,346 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:19:52,350 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:19:52,354 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:22:27,436 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:22:27,453 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:22:27,470 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:22:27,488 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:22:27,505 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:22:27,522 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:22:27,537 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:22:27,555 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:22:27,570 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:22:59,458 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:22:59,464 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:22:59,467 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:24:57,417 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:24:57,433 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:24:57,450 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:24:57,465 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:24:57,482 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:24:57,498 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:24:57,515 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:24:57,531 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:24:57,548 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:25:09,498 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:25:09,517 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:25:09,534 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:25:09,548 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:25:09,563 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:25:09,577 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:25:09,590 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:25:09,604 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:25:09,620 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:36:26,579 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:36:26,599 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:36:26,615 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:36:26,632 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:36:26,652 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:36:26,667 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:36:26,680 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:36:26,693 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:36:26,707 - all - INFO - views.py line:126-- get news : 
+2018-07-12 17:39:37,090 - all - INFO - views.py line:51-- get news : 
+2018-07-12 17:39:37,096 - all - INFO - views.py line:145-- get news : 
+2018-07-12 17:39:37,098 - all - INFO - views.py line:126-- get news : 

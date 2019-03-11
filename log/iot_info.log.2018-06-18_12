@@ -1,0 +1,25 @@
+2018-06-15 20:15:16,349 - all - INFO - views.py line:118-- timestamp : 1529064915021 
+2018-06-15 20:15:22,896 - all - ERROR - views.py line:59-- <QuerySet []> 
+2018-06-17 15:39:54,059 - all - INFO - views.py line:118-- timestamp : 1529221192454 
+2018-06-17 15:39:58,620 - all - ERROR - views.py line:59-- <QuerySet []> 
+2018-06-17 15:39:59,356 - all - ERROR - views.py line:59-- <QuerySet []> 
+2018-06-17 16:44:24,949 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/sqlexe/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view blog.views.useSqlRes didn't return an HttpResponse object. It returned None instead.
+2018-06-17 22:13:01,783 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/sqlexe/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 116, in useSqlRes
+    print(dictfetchallY(cursor))
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 149, in dictfetchallY
+    if isinstance(getattr(attr), datetime.datetime):
+TypeError: getattr expected at least 2 arguments, got 1

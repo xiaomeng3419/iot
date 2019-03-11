@@ -1,0 +1,701 @@
+2018-05-25 15:10:54,045 - all - ERROR - views.py line:42-- <QuerySet []> 
+2018-05-25 15:22:37,621 - all - ERROR - views.py line:42-- <QuerySet []> 
+2018-05-25 15:23:20,501 - all - ERROR - views.py line:42-- <QuerySet []> 
+2018-05-25 15:25:48,171 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 15:28:10,052 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login/api 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 36, in login
+    logger.info("login success"+user)
+TypeError: must be str, not QuerySet
+2018-05-25 20:36:48,951 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 20:36:51,225 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 20:37:53,114 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 20:38:40,674 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 20:39:25,797 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 20:46:37,117 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 20:48:20,353 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:06:51,405 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:06:53,655 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:07:33,712 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:08:01,090 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:08:31,296 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:09:44,822 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:10:54,783 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:10:59,199 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:11:52,066 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:12:12,834 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:13:03,196 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:13:04,970 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:13:09,122 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:13:09,564 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:13:09,749 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:15:18,912 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:15:19,350 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:15:19,551 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:15:19,719 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:15:19,871 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:17:40,706 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:17:44,151 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:18:27,413 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:18:37,523 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:18:37,771 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:19:41,508 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:26:50,648 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:26:53,720 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:34:38,889 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:34:41,111 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:34:43,518 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-25 21:35:54,644 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-26 14:03:49,088 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-26 14:05:07,160 - all - ERROR - views.py line:43-- <QuerySet []> 
+2018-05-26 19:52:14,426 - django.request - WARNING - base.py line:93-- Not Found: /favicon.ico 
+2018-05-27 17:55:49,712 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8100/login/create_code_img/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2018-05-27 17:56:54,421 - all - ERROR - views.py line:45-- <QuerySet []> 
+2018-05-27 17:57:05,059 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8100/login/create_code_img/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2018-05-27 17:57:35,957 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8100/login/create_code_img/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2018-05-27 17:58:55,138 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8100/login/create_code_img/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2018-05-27 17:59:58,095 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 84, in create_code_img
+    img, code = check_code.create_validate_code() #调用check_code生成照片和验证码
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\utils\check_code.py", line 92, in create_validate_code
+    strs = create_strs()
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\utils\check_code.py", line 80, in create_strs
+    font = ImageFont.truetype(font_type, font_size)
+  File "E:\common\Python\lib\site-packages\PIL\ImageFont.py", line 261, in truetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "E:\common\Python\lib\site-packages\PIL\ImageFont.py", line 144, in __init__
+    self.font = core.getfont(font, size, index, encoding, layout_engine=layout_engine)
+OSError: cannot open resource
+2018-05-27 20:55:50,643 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 84, in create_code_img
+    img, code = check_code.create_validate_code() #调用check_code生成照片和验证码
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\utils\check_code.py", line 92, in create_validate_code
+    strs = create_strs()
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\utils\check_code.py", line 80, in create_strs
+    font = ImageFont.truetype(font_type, font_size)
+  File "E:\common\Python\lib\site-packages\PIL\ImageFont.py", line 239, in truetype
+    return FreeTypeFont(font, size, index, encoding)
+  File "E:\common\Python\lib\site-packages\PIL\ImageFont.py", line 128, in __init__
+    self.font = core.getfont(font, size, index, encoding)
+OSError: cannot open resource
+2018-05-27 20:57:26,468 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 84, in create_code_img
+    img, code = check_code.create_validate_code() #调用check_code生成照片和验证码
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\utils\check_code.py", line 92, in create_validate_code
+    strs = create_strs()
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\utils\check_code.py", line 80, in create_strs
+    font = ImageFont.truetype(font_type, font_size)
+NameError: name 'font_type' is not defined
+2018-05-27 20:58:03,817 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 84, in create_code_img
+    img, code = check_code.create_validate_code() #调用check_code生成照片和验证码
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\utils\check_code.py", line 93, in create_validate_code
+    strs = create_strs()
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\utils\check_code.py", line 81, in create_strs
+    font = ImageFont.truetype(font_type, font_size)
+  File "E:\common\Python\lib\site-packages\PIL\ImageFont.py", line 239, in truetype
+    return FreeTypeFont(font, size, index, encoding)
+  File "E:\common\Python\lib\site-packages\PIL\ImageFont.py", line 128, in __init__
+    self.font = core.getfont(font, size, index, encoding)
+OSError: cannot open resource
+2018-05-27 21:22:42,963 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 98, in verify_code
+    ic.renderChar(randomChar);
+AttributeError: 'ImageChar' object has no attribute 'renderChar'
+2018-05-27 21:25:42,694 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 98, in verify_code
+    ic.renderChar(randomChar);
+AttributeError: 'ImageChar' object has no attribute 'renderChar'
+2018-05-27 21:30:26,307 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 98, in verify_code
+    ic.renderChar(randomChar);
+AttributeError: 'ImageChar' object has no attribute 'renderChar'
+2018-05-27 21:32:46,554 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 99, in verify_code
+    imgStr = ic.getBaseB64ImageStr();
+AttributeError: 'ImageChar' object has no attribute 'getBaseB64ImageStr'
+2018-05-27 21:36:36,811 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 98, in verify_code
+    ic.renderChar(randomChar);
+AttributeError: 'ImageChar' object has no attribute 'renderChar'
+2018-05-27 21:36:59,955 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 99, in verify_code
+    imgStr = ic.getBaseB64ImageStr();
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\RandomChar.py", line 44, in getBaseB64ImageStr
+    jpeg_image_buffer = StringIO.StringIO()
+AttributeError: type object '_io.StringIO' has no attribute 'StringIO'
+2018-05-27 21:42:52,818 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\PIL\ImageFile.py", line 466, in _save
+    fh = fp.fileno()
+io.UnsupportedOperation: fileno
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 99, in verify_code
+    imgStr = ic.getBaseB64ImageStr();
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\RandomChar.py", line 45, in getBaseB64ImageStr
+    self.image.save(jpeg_image_buffer, "jpeg")
+  File "E:\common\Python\lib\site-packages\PIL\Image.py", line 1698, in save
+    save_handler(self, fp, filename)
+  File "E:\common\Python\lib\site-packages\PIL\JpegImagePlugin.py", line 725, in _save
+    ImageFile._save(im, fp, [("jpeg", (0, 0)+im.size, 0, rawmode)], bufsize)
+  File "E:\common\Python\lib\site-packages\PIL\ImageFile.py", line 481, in _save
+    fp.write(d)
+TypeError: string argument expected, got 'bytes'
+2018-05-27 21:46:15,539 - django.request - WARNING - base.py line:93-- Not Found: /favicon.ico 
+2018-05-27 21:54:36,495 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    img, strs = check_code.creat_validata_code();
+AttributeError: module 'login.utils.check_code' has no attribute 'creat_validata_code'
+2018-05-27 21:55:00,909 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    img, strs = check_code.creat_validata_code();
+AttributeError: module 'login.utils.check_code' has no attribute 'creat_validata_code'
+2018-05-27 21:59:44,943 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8100/login/create_code_img/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2018-05-28 21:34:09,536 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 21:34:10,885 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 21:34:11,426 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 21:34:11,819 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 21:34:11,999 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 21:34:34,225 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 21:48:45,063 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 21:48:45,314 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 21:48:47,281 - all - INFO - views.py line:104-- timestamp : 1527515327270 
+2018-05-28 21:48:48,891 - all - INFO - views.py line:104-- timestamp : 1527515328582 
+2018-05-28 21:48:50,111 - all - INFO - views.py line:104-- timestamp : 1527515330105 
+2018-05-28 21:48:50,985 - all - INFO - views.py line:104-- timestamp : 1527515330675 
+2018-05-28 21:48:51,234 - all - INFO - views.py line:104-- timestamp : 1527515331089 
+2018-05-28 21:53:55,751 - all - INFO - views.py line:104-- timestamp : 1527515635632 
+2018-05-28 21:53:55,940 - all - INFO - views.py line:104-- timestamp : 1527515635840 
+2018-05-28 21:53:56,261 - all - INFO - views.py line:104-- timestamp : 1527515636257 
+2018-05-28 21:53:56,759 - all - INFO - views.py line:104-- timestamp : 1527515636644 
+2018-05-28 21:53:56,951 - all - INFO - views.py line:104-- timestamp : 1527515636818 
+2018-05-28 21:53:57,128 - all - INFO - views.py line:104-- timestamp : 1527515637010 
+2018-05-28 21:53:57,319 - all - INFO - views.py line:104-- timestamp : 1527515637234 
+2018-05-28 21:53:57,543 - all - INFO - views.py line:104-- timestamp : 1527515637394 
+2018-05-28 21:53:57,702 - all - INFO - views.py line:104-- timestamp : 1527515637620 
+2018-05-28 21:53:57,926 - all - INFO - views.py line:104-- timestamp : 1527515637795 
+2018-05-28 21:53:58,102 - all - INFO - views.py line:104-- timestamp : 1527515637987 
+2018-05-28 21:53:58,297 - all - INFO - views.py line:104-- timestamp : 1527515638179 
+2018-05-28 21:57:29,040 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 21:57:29,291 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 22:00:07,879 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 22:00:08,133 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 22:00:18,107 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 22:00:21,021 - all - INFO - views.py line:104-- timestamp : 1527516020706 
+2018-05-28 22:00:21,897 - all - INFO - views.py line:104-- timestamp : 1527516021891 
+2018-05-28 22:01:09,240 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 22:01:14,792 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 22:01:16,797 - all - INFO - views.py line:104-- timestamp : 1527516076786 
+2018-05-28 22:01:19,503 - all - INFO - views.py line:104-- timestamp : 1527516079194 
+2018-05-28 22:01:19,758 - all - INFO - views.py line:104-- timestamp : 1527516079692 
+2018-05-28 22:01:20,002 - all - INFO - views.py line:104-- timestamp : 1527516079885 
+2018-05-28 22:01:20,251 - all - INFO - views.py line:104-- timestamp : 1527516080245 
+2018-05-28 22:01:20,747 - all - INFO - views.py line:104-- timestamp : 1527516080439 
+2018-05-28 22:02:16,420 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 22:02:17,724 - all - INFO - views.py line:104-- timestamp : 1527516137712 
+2018-05-28 22:02:28,859 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 22:03:17,751 - all - INFO - views.py line:104-- timestamp : 1527516197439 
+2018-05-28 22:03:42,433 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 22:03:43,432 - all - INFO - views.py line:104-- timestamp : 1527516223421 
+2018-05-28 22:04:16,286 - all - INFO - views.py line:104-- timestamp : 1527516256164 
+2018-05-28 22:04:16,537 - all - INFO - views.py line:104-- timestamp : 1527516256533 
+2018-05-28 22:04:17,036 - all - INFO - views.py line:104-- timestamp : 1527516256984 
+2018-05-28 22:04:34,050 - all - INFO - views.py line:104-- timestamp : 1527516273740 
+2018-05-28 22:10:01,607 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 22:10:03,644 - all - INFO - views.py line:104-- timestamp : 1527516603632 
+2018-05-28 22:10:32,123 - all - INFO - views.py line:104-- timestamp : 1527516631812 
+2018-05-28 22:10:32,375 - all - INFO - views.py line:104-- timestamp : 1527516632212 
+2018-05-28 22:10:34,216 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 22:10:38,109 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 22:11:25,595 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 22:11:33,150 - all - INFO - views.py line:104-- timestamp : 1527516693140 
+2018-05-28 22:11:46,932 - all - INFO - views.py line:104-- timestamp : 1527516706625 
+2018-05-28 22:12:12,787 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-28 22:12:14,324 - all - INFO - views.py line:104-- timestamp : 1527516734315 
+2018-05-28 22:12:28,509 - all - INFO - views.py line:104-- timestamp : 1527516748407 
+2018-05-28 22:12:28,716 - all - INFO - views.py line:104-- timestamp : 1527516748617 
+2018-05-28 22:12:28,923 - all - INFO - views.py line:104-- timestamp : 1527516748792 
+2018-05-28 22:12:29,101 - all - INFO - views.py line:104-- timestamp : 1527516748968 
+2018-05-28 22:12:29,276 - all - INFO - views.py line:104-- timestamp : 1527516749160 
+2018-05-28 22:12:29,470 - all - INFO - views.py line:104-- timestamp : 1527516749337 
+2018-05-28 22:12:29,643 - all - INFO - views.py line:104-- timestamp : 1527516749512 
+2018-05-28 22:12:29,822 - all - INFO - views.py line:104-- timestamp : 1527516749705 
+2018-05-28 22:12:30,013 - all - INFO - views.py line:104-- timestamp : 1527516749866 
+2018-05-28 22:12:30,170 - all - INFO - views.py line:104-- timestamp : 1527516750043 
+2018-05-28 22:12:30,349 - all - INFO - views.py line:104-- timestamp : 1527516750219 
+2018-05-28 22:12:35,590 - all - INFO - views.py line:104-- timestamp : 1527516755586 
+2018-05-28 22:12:36,083 - all - INFO - views.py line:104-- timestamp : 1527516755973 
+2018-05-28 22:12:36,281 - all - INFO - views.py line:104-- timestamp : 1527516756180 
+2018-05-28 22:12:36,485 - all - INFO - views.py line:104-- timestamp : 1527516756371 
+2018-05-28 22:12:36,681 - all - INFO - views.py line:104-- timestamp : 1527516756581 
+2018-05-28 22:12:36,888 - all - INFO - views.py line:104-- timestamp : 1527516756787 
+2018-05-28 22:12:37,160 - all - INFO - views.py line:104-- timestamp : 1527516757154 
+2018-05-28 22:12:38,241 - all - INFO - views.py line:104-- timestamp : 1527516758133 
+2018-05-28 22:12:38,906 - all - INFO - views.py line:104-- timestamp : 1527516758901 
+2018-05-28 22:12:39,437 - all - INFO - views.py line:104-- timestamp : 1527516759351 
+2018-05-28 22:12:39,660 - all - INFO - views.py line:104-- timestamp : 1527516759561 
+2018-05-28 22:12:39,871 - all - INFO - views.py line:104-- timestamp : 1527516759750 
+2018-05-28 22:12:42,239 - all - INFO - views.py line:104-- timestamp : 1527516762234 
+2018-05-28 22:12:45,696 - all - INFO - views.py line:104-- timestamp : 1527516765599 
+2018-05-28 22:12:45,949 - all - INFO - views.py line:104-- timestamp : 1527516765945 
+2018-05-28 22:12:46,447 - all - INFO - views.py line:104-- timestamp : 1527516766344 
+2018-05-28 22:12:46,652 - all - INFO - views.py line:104-- timestamp : 1527516766552 
+2018-05-29 09:56:14,497 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-29 09:56:16,038 - all - INFO - views.py line:104-- timestamp : 1527558976028 
+2018-05-29 09:57:10,982 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-29 10:07:37,470 - all - INFO - views.py line:104-- timestamp : 1527559630038 
+2018-05-29 10:07:42,331 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 104, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-05-29 10:13:53,676 - all - INFO - views.py line:104-- timestamp : 1527560033364 
+2018-05-29 10:13:56,135 - all - INFO - views.py line:104-- timestamp : 1527560036065 
+2018-05-29 10:15:52,927 - all - INFO - views.py line:104-- timestamp : 1527560152616 
+2018-05-29 10:15:53,775 - all - INFO - views.py line:104-- timestamp : 1527560153770 
+2018-05-29 10:15:54,539 - all - INFO - views.py line:104-- timestamp : 1527560154457 
+2018-05-29 10:15:54,764 - all - INFO - views.py line:104-- timestamp : 1527560154681 
+2018-05-29 10:15:54,996 - all - INFO - views.py line:104-- timestamp : 1527560154889 
+2018-05-29 10:15:55,197 - all - INFO - views.py line:104-- timestamp : 1527560155097 
+2018-05-29 10:15:55,407 - all - INFO - views.py line:104-- timestamp : 1527560155275 
+2018-05-29 10:15:55,580 - all - INFO - views.py line:104-- timestamp : 1527560155483 
+2018-05-29 10:15:55,792 - all - INFO - views.py line:104-- timestamp : 1527560155676 
+2018-05-29 10:15:55,985 - all - INFO - views.py line:104-- timestamp : 1527560155867 
+2018-05-29 10:15:56,176 - all - INFO - views.py line:104-- timestamp : 1527560156075 
+2018-05-29 10:15:56,387 - all - INFO - views.py line:104-- timestamp : 1527560156267 
+2018-05-29 10:15:56,577 - all - INFO - views.py line:104-- timestamp : 1527560156459 
+2018-05-29 10:15:56,765 - all - INFO - views.py line:104-- timestamp : 1527560156669 
+2018-05-29 10:15:56,979 - all - INFO - views.py line:104-- timestamp : 1527560156878 
+2018-05-29 10:15:57,191 - all - INFO - views.py line:104-- timestamp : 1527560157101 
+2018-05-29 10:15:57,409 - all - INFO - views.py line:104-- timestamp : 1527560157293 
+2018-05-29 10:15:57,607 - all - INFO - views.py line:104-- timestamp : 1527560157517 
+2018-05-29 10:15:57,829 - all - INFO - views.py line:104-- timestamp : 1527560157709 
+2018-05-29 10:15:58,018 - all - INFO - views.py line:104-- timestamp : 1527560157902 
+2018-05-29 10:15:58,211 - all - INFO - views.py line:104-- timestamp : 1527560158111 
+2018-05-29 10:15:58,421 - all - INFO - views.py line:104-- timestamp : 1527560158287 
+2018-05-29 10:15:58,716 - all - INFO - views.py line:104-- timestamp : 1527560158711 
+2018-05-29 10:15:59,212 - all - INFO - views.py line:104-- timestamp : 1527560159096 
+2018-05-29 10:15:59,405 - all - INFO - views.py line:104-- timestamp : 1527560159319 
+2018-05-29 10:15:59,624 - all - INFO - views.py line:104-- timestamp : 1527560159528 
+2018-05-29 10:15:59,833 - all - INFO - views.py line:104-- timestamp : 1527560159737 
+2018-05-29 10:16:00,043 - all - INFO - views.py line:104-- timestamp : 1527560159929 
+2018-05-29 10:16:00,237 - all - INFO - views.py line:104-- timestamp : 1527560160121 
+2018-05-29 10:16:00,430 - all - INFO - views.py line:104-- timestamp : 1527560160330 
+2018-05-29 10:16:00,640 - all - INFO - views.py line:104-- timestamp : 1527560160521 
+2018-05-29 10:16:00,829 - all - INFO - views.py line:104-- timestamp : 1527560160713 
+2018-05-29 10:16:01,023 - all - INFO - views.py line:104-- timestamp : 1527560160937 
+2018-05-29 10:16:01,243 - all - INFO - views.py line:104-- timestamp : 1527560161147 
+2018-05-29 10:16:01,542 - all - INFO - views.py line:104-- timestamp : 1527560161532 
+2018-05-29 10:16:02,031 - all - INFO - views.py line:104-- timestamp : 1527560161931 
+2018-05-29 10:16:02,240 - all - INFO - views.py line:104-- timestamp : 1527560162155 
+2018-05-29 10:16:02,471 - all - INFO - views.py line:104-- timestamp : 1527560162363 
+2018-05-29 10:16:02,671 - all - INFO - views.py line:104-- timestamp : 1527560162573 
+2018-05-29 10:16:02,882 - all - INFO - views.py line:104-- timestamp : 1527560162781 
+2018-05-29 10:16:09,770 - all - INFO - views.py line:104-- timestamp : 1527560169765 
+2018-05-29 10:16:10,266 - all - INFO - views.py line:104-- timestamp : 1527560169959 
+2018-05-29 10:16:43,620 - all - ERROR - views.py line:45-- <QuerySet []> 

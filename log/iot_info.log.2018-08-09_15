@@ -1,0 +1,261 @@
+2018-08-09 15:06:29,977 - all - INFO - views.py line:119-- timestamp : 1533798389655 
+2018-08-09 15:06:38,090 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'login_user.stuno' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 46, in login
+    if user:
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 276, in __bool__
+    self._fetch_all()
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\common\Python\lib\site-packages\django\db\models\sql\compiler.py", line 1067, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.InternalError: (1054, "Unknown column 'login_user.stuno' in 'field list'")
+2018-08-09 15:06:40,076 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'login_user.stuno' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 46, in login
+    if user:
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 276, in __bool__
+    self._fetch_all()
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\common\Python\lib\site-packages\django\db\models\sql\compiler.py", line 1067, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.InternalError: (1054, "Unknown column 'login_user.stuno' in 'field list'")
+2018-08-09 15:07:06,038 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'login_user.stuno' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 46, in login
+    if user:
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 276, in __bool__
+    self._fetch_all()
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\common\Python\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\common\Python\lib\site-packages\django\db\models\sql\compiler.py", line 1067, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.InternalError: (1054, "Unknown column 'login_user.stuno' in 'field list'")
+2018-08-09 15:07:44,542 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:07:45,202 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:07:52,504 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:07:53,107 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:08:31,029 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:08:32,905 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:08:34,852 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:08:35,415 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:08:41,547 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:08:42,179 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:10:13,154 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:10:14,904 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:10:20,184 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:10:20,763 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:10:25,534 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:10:26,150 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:10:35,238 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:10:39,524 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:10:40,173 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:10:54,817 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:10:55,405 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:11:04,406 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:11:05,073 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:13:39,565 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:13:40,109 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:13:48,051 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:13:48,672 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:17:08,880 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:17:10,002 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:19:40,366 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:28:13,401 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:28:15,033 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:28:17,524 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:28:19,214 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:28:21,952 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:28:22,614 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-09 15:28:26,521 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-09 15:28:27,267 - root - INFO - threadpool.py line:111-- Shutting down thread pool 

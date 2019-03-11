@@ -1,0 +1,2 @@
+# new ThreadPoolExecutor 使用BlockingQueue<Runnable>实现类LinkedBlockingDeque和先实现SynchronousQueue连个的区别
+* 引用java并发编程P111

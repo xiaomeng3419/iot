@@ -1,0 +1,102 @@
+2018-05-31 21:38:15,028 - all - INFO - views.py line:104-- timestamp : 1527773894696 
+2018-05-31 21:38:16,555 - all - INFO - views.py line:104-- timestamp : 1527773896550 
+2018-05-31 21:38:17,067 - all - INFO - views.py line:104-- timestamp : 1527773896966 
+2018-05-31 21:38:17,273 - all - INFO - views.py line:104-- timestamp : 1527773897141 
+2018-05-31 21:38:17,450 - all - INFO - views.py line:104-- timestamp : 1527773897351 
+2018-06-06 21:48:50,270 - django.request - WARNING - base.py line:93-- Not Found: //blogs/createBlog/ 
+2018-06-06 21:49:13,419 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blogs/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view blog.views.createBlog didn't return an HttpResponse object. It returned None instead.
+2018-06-06 21:49:45,430 - django.request - WARNING - base.py line:93-- Not Found: /blog/createBlog/ 
+2018-06-06 21:50:23,616 - django.request - WARNING - base.py line:93-- Not Found: /blog/blogs/createBlog/ 
+2018-06-06 21:50:51,391 - django.request - WARNING - base.py line:93-- Not Found: /blog/blogs/createBlog/ 
+2018-06-06 21:51:13,218 - django.request - WARNING - base.py line:93-- Not Found: /blog/blog/createBlog/ 
+2018-06-06 21:51:44,941 - django.request - WARNING - base.py line:93-- Not Found: /blog/blog/createBlog/ 
+2018-06-06 21:52:43,447 - django.request - WARNING - base.py line:93-- Not Found: /blogs/blog/createBlog/ 
+2018-06-06 21:53:21,735 - django.request - WARNING - base.py line:93-- Not Found: /blog/blog/createBlog/ 
+2018-06-06 21:55:06,444 - all - INFO - views.py line:104-- timestamp : 1528293306138 
+2018-06-06 21:55:51,730 - django.request - WARNING - base.py line:93-- Not Found: /blog/blog/createBlog/ 
+2018-06-06 21:58:00,646 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view blog.views.createBlog didn't return an HttpResponse object. It returned None instead.
+2018-06-06 22:07:09,401 - all - INFO - views.py line:104-- timestamp : 1528294029137 
+2018-06-06 22:17:20,360 - django.request - WARNING - base.py line:93-- Not Found: /blog/blog/createBlog/ 
+2018-06-07 10:44:32,882 - all - INFO - views.py line:104-- timestamp : 1528339472440 
+2018-06-07 10:44:44,991 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8100/login/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2018-06-07 10:46:07,901 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8100/login/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2018-06-07 10:46:30,691 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8100/login/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2018-06-07 10:56:22,439 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8100/login/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2018-06-07 10:56:30,918 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8100/login/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2018-06-07 10:58:06,805 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/login 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\common\Python\lib\site-packages\django\middleware\common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8100/login/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2018-06-07 11:01:59,027 - django.request - WARNING - base.py line:93-- Not Found: /login/login 
+2018-06-07 11:02:11,947 - django.request - WARNING - base.py line:93-- Not Found: /login/login 
+2018-06-07 11:02:32,727 - django.request - WARNING - base.py line:93-- Not Found: /login/login 
+2018-06-07 11:03:03,752 - all - ERROR - views.py line:45-- <QuerySet []> 

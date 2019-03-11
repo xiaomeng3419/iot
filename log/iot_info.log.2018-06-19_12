@@ -1,0 +1,452 @@
+2018-06-18 14:57:06,464 - all - INFO - views.py line:118-- timestamp : 1529305024874 
+2018-06-18 14:57:08,588 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django_redis\client\default.py", line 477, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 97, in __call__
+    response = self.process_response(request, response)
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\middleware.py", line 58, in process_response
+    request.session.save()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 56, in save
+    return self.create()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 153, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\common\Python\lib\site-packages\django\core\cache\backends\base.py", line 201, in __contains__
+    return self.has_key(key)
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 39, in _decorator
+    raise e.parent
+  File "E:\common\Python\lib\site-packages\django_redis\client\default.py", line 475, in has_key
+    return client.exists(key)
+  File "E:\common\Python\lib\site-packages\redis\client.py", line 951, in exists
+    return self.execute_command('EXISTS', name)
+  File "E:\common\Python\lib\site-packages\redis\client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 585, in send_packed_command
+    self.connect()
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+2018-06-18 14:57:23,304 - all - INFO - views.py line:118-- timestamp : 1529305042997 
+2018-06-18 14:57:25,323 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "E:\common\Python\lib\site-packages\django_redis\client\default.py", line 477, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 97, in __call__
+    response = self.process_response(request, response)
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\middleware.py", line 58, in process_response
+    request.session.save()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 56, in save
+    return self.create()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\base.py", line 153, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\common\Python\lib\site-packages\django\contrib\sessions\backends\cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\common\Python\lib\site-packages\django\core\cache\backends\base.py", line 201, in __contains__
+    return self.has_key(key)
+  File "E:\common\Python\lib\site-packages\django_redis\cache.py", line 39, in _decorator
+    raise e.parent
+  File "E:\common\Python\lib\site-packages\django_redis\client\default.py", line 475, in has_key
+    return client.exists(key)
+  File "E:\common\Python\lib\site-packages\redis\client.py", line 951, in exists
+    return self.execute_command('EXISTS', name)
+  File "E:\common\Python\lib\site-packages\redis\client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 585, in send_packed_command
+    self.connect()
+  File "E:\common\Python\lib\site-packages\redis\connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+2018-06-18 15:02:26,955 - all - INFO - views.py line:118-- timestamp : 1529305346944 
+2018-06-18 15:49:35,535 - django.request - ERROR - exception.py line:118-- Internal Server Error: /admin 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-18 15:49:35,872 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-18 15:49:38,776 - django.request - ERROR - exception.py line:118-- Internal Server Error: /admin/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-18 15:49:39,076 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-18 15:50:40,256 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-18 15:50:58,206 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-18 15:52:20,939 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-18 15:52:53,729 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-18 16:05:48,419 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-18 16:06:17,021 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-18 21:14:36,739 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getTopBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 161, in getBlogsByUserID
+    user = request.session[rb.get("token")]
+NameError: name 'rb' is not defined
+2018-06-18 21:15:34,172 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getTopBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.user_id = 1' at line 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 165, in getBlogsByUserID
+    "WHERE  a.user_id = %s",[user["id"]])
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.user_id = 1' at line 1")
+2018-06-18 21:20:09,758 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getTopBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.user_id = 1' at line 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 165, in getBlogsByUserID
+    "where  a.user_id = %s",[user["id"]])
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.user_id = 1' at line 1")
+2018-06-18 21:21:02,916 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getTopBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 83, in _execute
+    return self.cursor.execute(sql)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.user_id = 1' at line 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 163, in getBlogsByUserID
+    cursor.execute("select a.id as Id,a.blog_name as blogName,a.createtime as createtime,b.class_name as className from blog_blog a "
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 83, in _execute
+    return self.cursor.execute(sql)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.user_id = 1' at line 1")
+2018-06-18 21:42:31,201 - all - INFO - views.py line:118-- timestamp : 1529329350893 
+2018-06-19 12:20:20,398 - all - INFO - views.py line:118-- timestamp : 1529382019875 

@@ -1,0 +1,19 @@
+2018-08-08 14:53:51,142 - all - INFO - views.py line:119-- timestamp : 1533711230827 
+2018-08-09 10:04:31,286 - all - INFO - views.py line:119-- timestamp : 1533780270698 
+2018-08-09 10:04:37,546 - all - ERROR - views.py line:61-- <QuerySet []> 
+2018-08-09 11:05:15,633 - all - INFO - views.py line:58-- get news : 
+2018-08-09 11:05:15,643 - all - INFO - views.py line:147-- get news : 
+2018-08-09 11:05:15,677 - all - INFO - views.py line:128-- get news : 
+2018-08-09 11:05:15,689 - all - INFO - views.py line:111-- get news : 
+2018-08-09 11:05:19,654 - all - INFO - views.py line:25-- get news : 
+2018-08-09 11:05:19,657 - all - INFO - views.py line:128-- get news : 
+2018-08-09 11:05:19,698 - all - INFO - views.py line:111-- get news : 
+2018-08-09 11:05:19,699 - all - INFO - views.py line:147-- get news : 
+2018-08-09 11:05:27,858 - all - INFO - views.py line:128-- get news : 
+2018-08-09 11:05:27,859 - all - INFO - views.py line:25-- get news : 
+2018-08-09 11:05:27,860 - all - INFO - views.py line:147-- get news : 
+2018-08-09 11:05:27,862 - all - INFO - views.py line:111-- get news : 
+2018-08-09 11:05:32,701 - all - INFO - views.py line:25-- get news : 
+2018-08-09 11:05:32,706 - all - INFO - views.py line:128-- get news : 
+2018-08-09 11:05:32,707 - all - INFO - views.py line:147-- get news : 
+2018-08-09 11:05:32,710 - all - INFO - views.py line:111-- get news : 

@@ -1,0 +1,13 @@
+2018-06-20 21:40:28,023 - all - INFO - views.py line:118-- timestamp : 1529502027509 
+2018-06-20 22:03:57,664 - all - INFO - views.py line:118-- timestamp : 1529503437352 
+2018-06-26 17:29:40,248 - all - INFO - views.py line:120-- timestamp : 1530005379934 
+2018-06-26 17:30:20,771 - all - INFO - views.py line:120-- timestamp : 1530005420461 
+2018-06-26 17:30:21,844 - all - INFO - views.py line:120-- timestamp : 1530005421839 
+2018-06-26 17:30:22,306 - all - INFO - views.py line:120-- timestamp : 1530005422175 
+2018-06-26 17:30:22,480 - all - INFO - views.py line:120-- timestamp : 1530005422334 
+2018-06-26 17:30:22,640 - all - INFO - views.py line:120-- timestamp : 1530005422511 
+2018-06-26 17:30:22,819 - all - INFO - views.py line:120-- timestamp : 1530005422686 
+2018-06-26 17:30:22,993 - all - INFO - views.py line:120-- timestamp : 1530005422848 
+2018-06-26 17:30:23,155 - all - INFO - views.py line:120-- timestamp : 1530005423041 
+2018-06-26 17:30:23,347 - all - INFO - views.py line:120-- timestamp : 1530005423232 
+2018-06-26 17:30:27,779 - all - ERROR - views.py line:61-- <QuerySet []> 

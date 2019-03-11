@@ -1,0 +1,38 @@
+2018-07-11 15:11:59,982 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-11 15:12:02,146 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 15:16:44,631 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-11 15:16:45,092 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-11 16:16:20,784 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 16:16:21,304 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-11 16:16:35,476 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 16:16:36,104 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-11 16:42:49,042 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 16:42:49,566 - root - INFO - threadpool.py line:111-- Shutting down thread pool 

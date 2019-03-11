@@ -1,0 +1,4 @@
+2018-08-14 21:42:12,906 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2019-01-04 23:14:28,617 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2019-01-04 23:16:43,757 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2019-01-04 23:16:47,211 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 

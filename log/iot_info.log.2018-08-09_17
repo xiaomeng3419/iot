@@ -1,0 +1,13 @@
+2018-08-09 17:16:51,351 - django.request - ERROR - exception.py line:118-- Internal Server Error: /day/upload/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\day\views.py", line 208, in upload
+    wb = xlrd.open_workbook(filename=None, file_contents=f.read())  # 关键点在于这里
+  File "E:\common\Python\lib\site-packages\xlrd\__init__.py", line 150, in open_workbook
+    raise XLRDError('ZIP file contents not a known type of workbook')
+xlrd.biffh.XLRDError: ZIP file contents not a known type of workbook

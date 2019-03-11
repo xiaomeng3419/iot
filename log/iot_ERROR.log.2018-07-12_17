@@ -1,0 +1,62 @@
+2018-07-11 20:14:13,935 - all - ERROR - views.py line:105-- float division by zero 
+2018-07-11 20:14:13,938 - all - ERROR - views.py line:73-- Object of type 'ZeroDivisionError' is not JSON serializable 
+2018-07-11 21:04:14,036 - all - ERROR - views.py line:41-- name 'pageNow' is not defined 
+2018-07-11 21:05:42,360 - all - ERROR - views.py line:58-- (1146, "Table 'mydatabase.day_push' doesn't exist") 
+2018-07-11 21:05:42,360 - all - ERROR - views.py line:40-- name 'res' is not defined 
+2018-07-11 21:06:31,643 - all - ERROR - views.py line:40-- name 'res' is not defined 
+2018-07-11 21:07:12,267 - all - ERROR - views.py line:40-- name 'res' is not defined 
+2018-07-11 21:07:35,544 - all - ERROR - views.py line:40-- name 'res' is not defined 
+2018-07-12 12:11:25,423 - all - ERROR - views.py line:69-- (1364, "Field 'delete' doesn't have a default value") 
+2018-07-12 12:11:41,706 - all - ERROR - views.py line:69-- list index out of range 
+2018-07-12 12:12:43,834 - all - ERROR - views.py line:69-- list index out of range 
+2018-07-12 13:12:33,582 - all - ERROR - views.py line:68-- 'lastTime' 
+2018-07-12 13:13:15,774 - all - ERROR - views.py line:68-- name 'time' is not defined 
+2018-07-12 13:13:34,391 - all - ERROR - views.py line:68-- unsupported operand type(s) for -: 'str' and 'str' 
+2018-07-12 13:15:30,211 - all - ERROR - views.py line:68-- 'module' object is not callable 
+2018-07-12 13:19:52,048 - all - ERROR - views.py line:68-- 'module' object is not callable 
+2018-07-12 14:48:46,160 - all - ERROR - views.py line:89-- 'Id' 
+2018-07-12 15:42:12,274 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:42:12,274 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:42:29,492 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:42:29,492 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:43:38,335 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:43:38,335 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:43:42,404 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:43:42,405 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:44:45,868 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:44:45,869 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:44:50,857 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:44:50,858 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:45:10,945 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:45:10,946 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:45:14,953 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:45:14,954 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:46:26,969 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:46:26,970 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:46:53,813 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:46:53,813 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:47:54,334 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:47:54,334 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:48:05,672 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:48:05,673 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:48:14,632 - all - ERROR - views.py line:81-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY a.user_idORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 15:48:14,632 - all - ERROR - views.py line:140-- Object of type 'ProgrammingError' is not JSON serializable 
+2018-07-12 15:48:38,922 - all - ERROR - views.py line:140-- Object of type 'Decimal' is not JSON serializable 
+2018-07-12 15:49:08,084 - all - ERROR - views.py line:141-- Object of type 'Decimal' is not JSON serializable 
+2018-07-12 15:58:08,976 - all - ERROR - views.py line:81-- isinstance() arg 2 must be a type or tuple of types 
+2018-07-12 15:58:08,976 - all - ERROR - views.py line:141-- Object of type 'TypeError' is not JSON serializable 
+2018-07-12 15:58:08,978 - all - ERROR - views.py line:81-- isinstance() arg 2 must be a type or tuple of types 
+2018-07-12 15:58:08,978 - all - ERROR - views.py line:63-- 'TypeError' object is not subscriptable 
+2018-07-12 16:01:15,626 - all - ERROR - views.py line:96-- isinstance() arg 2 must be a type or tuple of types 
+2018-07-12 16:01:15,626 - all - ERROR - views.py line:140-- Object of type 'TypeError' is not JSON serializable 
+2018-07-12 16:28:49,749 - all - ERROR - views.py line:96-- isinstance() arg 2 must be a type or tuple of types 
+2018-07-12 16:28:49,749 - all - ERROR - views.py line:140-- Object of type 'TypeError' is not JSON serializable 
+2018-07-12 16:31:53,596 - all - ERROR - views.py line:96-- isinstance() arg 2 must be a type or tuple of types 
+2018-07-12 16:31:53,597 - all - ERROR - views.py line:140-- Object of type 'TypeError' is not JSON serializable 
+2018-07-12 16:49:03,512 - all - ERROR - views.py line:61-- <QuerySet []> 
+2018-07-12 16:54:57,980 - all - ERROR - views.py line:94-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%(userId)s GROUP BY a.user_id ORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 16:54:57,980 - all - ERROR - views.py line:159-- 'ProgrammingError' object does not support indexing 
+2018-07-12 16:54:58,008 - all - ERROR - views.py line:94-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%(userId)s GROUP BY a.user_id ORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 16:54:58,008 - all - ERROR - views.py line:159-- 'ProgrammingError' object does not support indexing 
+2018-07-12 16:54:58,040 - all - ERROR - views.py line:94-- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%(userId)s GROUP BY a.user_id ORDER BY sum(a.times) DESC' at line 1") 
+2018-07-12 16:54:58,040 - all - ERROR - views.py line:159-- 'ProgrammingError' object does not support indexing 

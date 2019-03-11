@@ -1,0 +1,5 @@
+2018-06-15 20:15:16,349 - all - INFO - views.py line:118-- timestamp : 1529064915021 
+2018-06-15 20:15:22,896 - all - ERROR - views.py line:59-- <QuerySet []> 
+2018-06-17 15:39:54,059 - all - INFO - views.py line:118-- timestamp : 1529221192454 
+2018-06-17 15:39:58,620 - all - ERROR - views.py line:59-- <QuerySet []> 
+2018-06-17 15:39:59,356 - all - ERROR - views.py line:59-- <QuerySet []> 

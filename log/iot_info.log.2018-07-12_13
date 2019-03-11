@@ -1,0 +1,136 @@
+2018-07-11 19:35:01,905 - all - INFO - views.py line:51-- get news : 
+2018-07-11 19:36:47,737 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:02:12,039 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:05:02,482 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:05:10,587 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:07:57,315 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:10:18,809 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:10:23,366 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:14:13,927 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:14:13,935 - all - ERROR - views.py line:105-- float division by zero 
+2018-07-11 20:14:13,938 - all - ERROR - views.py line:73-- Object of type 'ZeroDivisionError' is not JSON serializable 
+2018-07-11 20:14:40,401 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:15:56,352 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:16:01,161 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:16:02,842 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:16:04,666 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:16:06,571 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:16:09,992 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:16:11,737 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:16:17,926 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:18:00,877 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:18:08,236 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:18:11,783 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:18:31,328 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:18:33,651 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:18:36,295 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:21:19,905 - all - INFO - views.py line:51-- get news : 
+2018-07-11 20:22:59,712 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-11 20:23:01,580 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 20:23:06,289 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 20:23:51,097 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-11 20:23:53,046 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 20:23:54,032 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-11 20:23:57,157 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 20:23:57,656 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-11 20:24:06,673 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 20:24:07,354 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-11 21:01:08,488 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-11 21:01:10,412 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 21:02:37,288 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-11 21:02:44,858 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 21:03:23,934 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-11 21:03:28,614 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 21:03:38,288 - all - INFO - views.py line:51-- get news : 
+2018-07-11 21:03:44,667 - all - INFO - views.py line:119-- timestamp : 1531314224355 
+2018-07-11 21:03:56,999 - all - INFO - views.py line:119-- timestamp : 1531314236687 
+2018-07-11 21:04:07,560 - all - INFO - views.py line:51-- get news : 
+2018-07-11 21:04:14,036 - all - INFO - views.py line:22-- get news : 
+2018-07-11 21:04:14,036 - all - ERROR - views.py line:41-- name 'pageNow' is not defined 
+2018-07-11 21:05:33,016 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-11 21:05:34,932 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 21:05:42,339 - all - INFO - views.py line:22-- get news : 
+2018-07-11 21:05:42,360 - all - ERROR - views.py line:58-- (1146, "Table 'mydatabase.day_push' doesn't exist") 
+2018-07-11 21:05:42,360 - all - ERROR - views.py line:40-- name 'res' is not defined 
+2018-07-11 21:06:07,041 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-11 21:06:08,935 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 21:06:31,631 - all - INFO - views.py line:22-- get news : 
+2018-07-11 21:06:31,643 - all - ERROR - views.py line:40-- name 'res' is not defined 
+2018-07-11 21:07:06,051 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-11 21:07:07,979 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 21:07:12,261 - all - INFO - views.py line:22-- get news : 
+2018-07-11 21:07:12,267 - all - ERROR - views.py line:40-- name 'res' is not defined 
+2018-07-11 21:07:30,645 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-11 21:07:32,629 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 21:07:35,537 - all - INFO - views.py line:22-- get news : 
+2018-07-11 21:07:35,544 - all - ERROR - views.py line:40-- name 'res' is not defined 
+2018-07-11 21:09:14,499 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-11 21:09:16,477 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-11 21:09:16,525 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 12:10:42,808 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 12:10:51,434 - all - INFO - views.py line:119-- timestamp : 1531368650911 
+2018-07-12 12:11:05,521 - all - INFO - views.py line:51-- get news : 
+2018-07-12 12:11:15,179 - all - INFO - views.py line:51-- get news : 
+2018-07-12 12:11:25,416 - all - INFO - views.py line:22-- get news : 
+2018-07-12 12:11:25,423 - all - ERROR - views.py line:69-- (1364, "Field 'delete' doesn't have a default value") 
+2018-07-12 12:11:41,691 - all - INFO - views.py line:22-- get news : 
+2018-07-12 12:11:41,706 - all - ERROR - views.py line:69-- list index out of range 
+2018-07-12 12:12:28,499 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 12:12:30,736 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 12:12:43,809 - all - INFO - views.py line:22-- get news : 
+2018-07-12 12:12:43,834 - all - ERROR - views.py line:69-- list index out of range 
+2018-07-12 12:14:05,604 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 12:14:07,484 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 12:39:18,324 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 12:39:23,240 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 12:39:26,195 - all - INFO - views.py line:22-- get news : 
+2018-07-12 12:50:12,844 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 12:50:17,562 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 12:50:19,917 - all - INFO - views.py line:22-- get news : 
+2018-07-12 12:51:25,336 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 12:51:27,315 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 12:51:41,762 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 12:51:45,704 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 12:51:57,158 - all - INFO - views.py line:22-- get news : 
+2018-07-12 12:55:01,726 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 12:55:05,823 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 12:55:10,150 - all - INFO - views.py line:22-- get news : 
+2018-07-12 12:55:16,041 - all - INFO - views.py line:22-- get news : 
+2018-07-12 12:55:22,313 - all - INFO - views.py line:22-- get news : 
+2018-07-12 12:55:36,763 - all - INFO - views.py line:22-- get news : 
+2018-07-12 12:55:53,443 - all - INFO - views.py line:22-- get news : 
+2018-07-12 13:02:13,155 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 13:02:15,317 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 13:03:48,370 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 13:03:50,278 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 13:04:14,510 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 13:04:16,359 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 13:11:33,382 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 13:11:37,195 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 13:12:18,897 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 13:12:23,145 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 13:12:33,567 - all - INFO - views.py line:22-- get news : 
+2018-07-12 13:12:33,582 - all - ERROR - views.py line:68-- 'lastTime' 
+2018-07-12 13:13:08,711 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 13:13:12,761 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 13:13:15,768 - all - INFO - views.py line:22-- get news : 
+2018-07-12 13:13:15,774 - all - ERROR - views.py line:68-- name 'time' is not defined 
+2018-07-12 13:13:25,931 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 13:13:30,009 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 13:13:34,386 - all - INFO - views.py line:22-- get news : 
+2018-07-12 13:13:34,391 - all - ERROR - views.py line:68-- unsupported operand type(s) for -: 'str' and 'str' 
+2018-07-12 13:14:16,205 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 13:14:18,183 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 13:15:22,036 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 13:15:26,482 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 13:15:30,204 - all - INFO - views.py line:22-- get news : 
+2018-07-12 13:15:30,211 - all - ERROR - views.py line:68-- 'module' object is not callable 
+2018-07-12 13:19:45,310 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 13:19:50,065 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 13:19:52,033 - all - INFO - views.py line:22-- get news : 
+2018-07-12 13:19:52,048 - all - ERROR - views.py line:68-- 'module' object is not callable 
+2018-07-12 13:21:47,907 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 13:21:49,776 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 13:23:43,753 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-12 13:23:48,090 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-12 13:23:58,499 - all - INFO - views.py line:23-- get news : 

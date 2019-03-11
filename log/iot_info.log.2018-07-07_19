@@ -1,0 +1,1154 @@
+2018-06-28 20:46:09,809 - all - INFO - views.py line:119-- timestamp : 1530189969501 
+2018-06-28 21:13:17,683 - all - INFO - views.py line:119-- timestamp : 1530191597374 
+2018-06-29 21:25:14,535 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-29 21:25:15,332 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-29 21:29:43,561 - all - INFO - views.py line:119-- timestamp : 1530278983251 
+2018-06-29 21:29:57,814 - all - ERROR - views.py line:61-- <QuerySet []> 
+2018-06-30 16:07:58,163 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-30 16:07:58,847 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-30 16:10:07,592 - all - INFO - views.py line:119-- timestamp : 1530346207578 
+2018-06-30 16:12:24,430 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-30 16:12:24,863 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-30 16:12:35,380 - all - ERROR - views.py line:61-- <QuerySet []> 
+2018-06-30 16:13:09,625 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/createBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 30, in createBlog
+    remoteIp = QuerySetToJson.getRuquestRemoteAddress(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\utils\QuerySetToJson.py", line 33, in getRuquestRemoteAddress
+    if request.META.has_key('HTTP_X_FORWARDED_FOR'):
+AttributeError: 'dict' object has no attribute 'has_key'
+2018-06-30 16:28:47,649 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-30 16:28:48,103 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-30 16:29:49,116 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-30 16:29:49,529 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-30 16:32:46,336 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-30 16:32:46,702 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-30 18:08:50,070 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-30 18:08:50,552 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-30 18:38:23,086 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-30 18:38:23,480 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-30 18:38:29,191 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getTopBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0,5' at line 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 149, in getBlogsByUserID
+    "limit 0,5",[user["id"]])
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0,5' at line 1")
+2018-06-30 18:38:33,303 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getTopBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0,5' at line 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 149, in getBlogsByUserID
+    "limit 0,5",[user["id"]])
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0,5' at line 1")
+2018-06-30 18:39:20,413 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-30 18:39:20,796 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-30 18:39:23,985 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getTopBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY id DESC limit 0,5' at line 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 149, in getBlogsByUserID
+    "ORDER BY id DESC limit 0,5",[user["id"]])
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY id DESC limit 0,5' at line 1")
+2018-06-30 18:39:34,897 - django.request - ERROR - exception.py line:118-- Internal Server Error: /blog/getTopBlog/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY id DESC limit 0,5' at line 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\blog\views.py", line 149, in getBlogsByUserID
+    "ORDER BY id DESC limit 0,5",[user["id"]])
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\common\Python\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\common\Python\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\common\Python\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "E:\common\Python\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\common\Python\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY id DESC limit 0,5' at line 1")
+2018-07-06 22:47:27,483 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-06 22:47:27,493 - apscheduler.scheduler - INFO - scheduler.py line:287-- Adding job tentatively -- it will be properly scheduled when the scheduler starts 
+2018-07-06 22:47:27,493 - apscheduler.scheduler - INFO - scheduler.py line:262-- Added job "mytask (trigger: interval[0:00:05], next run at: 2018-07-06 22:47:32.493034)" to job store "default" 
+2018-07-06 22:47:27,494 - apscheduler.scheduler - INFO - scheduler.py line:574-- Scheduler started 
+2018-07-06 22:47:29,124 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-06 22:47:29,783 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-06 22:47:32,493 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-06 22:47:37.493034)" (scheduled at 2018-07-06 22:47:32.493034) 
+2018-07-06 22:47:32,493 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-06 22:47:37.493034)" executed successfully 
+2018-07-06 22:47:37,493 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-06 22:47:42.493034)" (scheduled at 2018-07-06 22:47:37.493034) 
+2018-07-06 22:47:37,493 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-06 22:47:42.493034)" executed successfully 
+2018-07-06 22:47:42,494 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-06 22:47:42.493034)" (scheduled at 2018-07-06 22:47:42.493034) 
+2018-07-06 22:47:42,494 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-06 22:47:42.493034)" executed successfully 
+2018-07-06 22:47:47,493 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-06 22:47:47.493034)" (scheduled at 2018-07-06 22:47:47.493034) 
+2018-07-06 22:47:47,493 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-06 22:47:52.493034)" executed successfully 
+2018-07-06 22:47:52,493 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-06 22:47:52.493034)" (scheduled at 2018-07-06 22:47:52.493034) 
+2018-07-06 22:47:52,493 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-06 22:47:52.493034)" executed successfully 
+2018-07-06 22:47:57,495 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-06 22:48:02.493034)" (scheduled at 2018-07-06 22:47:57.493034) 
+2018-07-06 22:47:57,495 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-06 22:48:02.493034)" executed successfully 
+2018-07-06 22:48:00,262 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 18:38:35,698 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 18:38:35,710 - apscheduler.scheduler - INFO - scheduler.py line:287-- Adding job tentatively -- it will be properly scheduled when the scheduler starts 
+2018-07-07 18:38:35,710 - apscheduler.scheduler - INFO - scheduler.py line:262-- Added job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:38:40.710405)" to job store "default" 
+2018-07-07 18:38:35,711 - apscheduler.scheduler - INFO - scheduler.py line:574-- Scheduler started 
+2018-07-07 18:38:37,142 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 18:38:37,710 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 18:38:40,711 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:38:45.710405)" (scheduled at 2018-07-07 18:38:40.710405) 
+2018-07-07 18:38:40,711 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:38:45.710405)" executed successfully 
+2018-07-07 18:38:45,711 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:38:50.710405)" (scheduled at 2018-07-07 18:38:45.710405) 
+2018-07-07 18:38:45,711 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:38:50.710405)" executed successfully 
+2018-07-07 18:38:50,711 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:38:50.710405)" (scheduled at 2018-07-07 18:38:50.710405) 
+2018-07-07 18:38:50,711 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:38:55.710405)" executed successfully 
+2018-07-07 18:38:55,712 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:38:55.710405)" (scheduled at 2018-07-07 18:38:55.710405) 
+2018-07-07 18:38:55,712 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:00.710405)" executed successfully 
+2018-07-07 18:39:00,711 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:05.710405)" (scheduled at 2018-07-07 18:39:00.710405) 
+2018-07-07 18:39:00,711 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:05.710405)" executed successfully 
+2018-07-07 18:39:05,711 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:10.710405)" (scheduled at 2018-07-07 18:39:05.710405) 
+2018-07-07 18:39:05,712 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:10.710405)" executed successfully 
+2018-07-07 18:39:10,712 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:15.710405)" (scheduled at 2018-07-07 18:39:10.710405) 
+2018-07-07 18:39:10,713 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:15.710405)" executed successfully 
+2018-07-07 18:39:14,423 - django.request - WARNING - base.py line:93-- Not Found: /slider/sliderNews/ 
+2018-07-07 18:39:15,711 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:20.710405)" (scheduled at 2018-07-07 18:39:15.710405) 
+2018-07-07 18:39:15,711 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:20.710405)" executed successfully 
+2018-07-07 18:39:20,711 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:25.710405)" (scheduled at 2018-07-07 18:39:20.710405) 
+2018-07-07 18:39:20,712 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:25.710405)" executed successfully 
+2018-07-07 18:39:25,711 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:25.710405)" (scheduled at 2018-07-07 18:39:25.710405) 
+2018-07-07 18:39:25,711 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:30.710405)" executed successfully 
+2018-07-07 18:39:30,712 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:35.710405)" (scheduled at 2018-07-07 18:39:30.710405) 
+2018-07-07 18:39:30,712 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:35.710405)" executed successfully 
+2018-07-07 18:39:35,712 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:35.710405)" (scheduled at 2018-07-07 18:39:35.710405) 
+2018-07-07 18:39:35,712 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:40.710405)" executed successfully 
+2018-07-07 18:39:40,711 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:40.710405)" (scheduled at 2018-07-07 18:39:40.710405) 
+2018-07-07 18:39:40,712 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:45.710405)" executed successfully 
+2018-07-07 18:39:45,711 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:50.710405)" (scheduled at 2018-07-07 18:39:45.710405) 
+2018-07-07 18:39:45,712 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:50.710405)" executed successfully 
+2018-07-07 18:39:50,711 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:55.710405)" (scheduled at 2018-07-07 18:39:50.710405) 
+2018-07-07 18:39:50,711 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:39:55.710405)" executed successfully 
+2018-07-07 18:39:55,711 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:00.710405)" (scheduled at 2018-07-07 18:39:55.710405) 
+2018-07-07 18:39:55,712 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:00.710405)" executed successfully 
+2018-07-07 18:40:00,712 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:05.710405)" (scheduled at 2018-07-07 18:40:00.710405) 
+2018-07-07 18:40:00,712 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:05.710405)" executed successfully 
+2018-07-07 18:40:05,711 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:10.710405)" (scheduled at 2018-07-07 18:40:05.710405) 
+2018-07-07 18:40:05,711 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:10.710405)" executed successfully 
+2018-07-07 18:40:09,715 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 18:40:15,884 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 18:40:15,884 - apscheduler.scheduler - INFO - scheduler.py line:287-- Adding job tentatively -- it will be properly scheduled when the scheduler starts 
+2018-07-07 18:40:15,884 - apscheduler.scheduler - INFO - scheduler.py line:262-- Added job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:20.884194)" to job store "default" 
+2018-07-07 18:40:15,885 - apscheduler.scheduler - INFO - scheduler.py line:574-- Scheduler started 
+2018-07-07 18:40:20,884 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:25.884194)" (scheduled at 2018-07-07 18:40:20.884194) 
+2018-07-07 18:40:20,885 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:25.884194)" executed successfully 
+2018-07-07 18:40:25,885 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:30.884194)" (scheduled at 2018-07-07 18:40:25.884194) 
+2018-07-07 18:40:25,885 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:30.884194)" executed successfully 
+2018-07-07 18:40:30,886 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:30.884194)" (scheduled at 2018-07-07 18:40:30.884194) 
+2018-07-07 18:40:30,886 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:30.884194)" executed successfully 
+2018-07-07 18:40:35,885 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:40.884194)" (scheduled at 2018-07-07 18:40:35.884194) 
+2018-07-07 18:40:35,885 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:40.884194)" executed successfully 
+2018-07-07 18:40:40,885 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:45.884194)" (scheduled at 2018-07-07 18:40:40.884194) 
+2018-07-07 18:40:40,885 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:45.884194)" executed successfully 
+2018-07-07 18:40:45,885 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:50.884194)" (scheduled at 2018-07-07 18:40:45.884194) 
+2018-07-07 18:40:45,885 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:40:50.884194)" executed successfully 
+2018-07-07 18:40:47,222 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 18:41:19,068 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 18:41:19,068 - apscheduler.scheduler - INFO - scheduler.py line:287-- Adding job tentatively -- it will be properly scheduled when the scheduler starts 
+2018-07-07 18:41:19,068 - apscheduler.scheduler - INFO - scheduler.py line:262-- Added job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:41:24.068519)" to job store "default" 
+2018-07-07 18:41:19,069 - apscheduler.scheduler - INFO - scheduler.py line:574-- Scheduler started 
+2018-07-07 18:41:24,069 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:41:24.068519)" (scheduled at 2018-07-07 18:41:24.068519) 
+2018-07-07 18:41:24,069 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:41:29.068519)" executed successfully 
+2018-07-07 18:41:29,069 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:41:34.068519)" (scheduled at 2018-07-07 18:41:29.068519) 
+2018-07-07 18:41:29,069 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:41:34.068519)" executed successfully 
+2018-07-07 18:41:34,070 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:41:34.068519)" (scheduled at 2018-07-07 18:41:34.068519) 
+2018-07-07 18:41:34,070 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:41:34.068519)" executed successfully 
+2018-07-07 18:41:39,070 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:41:39.068519)" (scheduled at 2018-07-07 18:41:39.068519) 
+2018-07-07 18:41:39,071 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:41:39.068519)" executed successfully 
+2018-07-07 18:41:44,069 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:41:49.068519)" (scheduled at 2018-07-07 18:41:44.068519) 
+2018-07-07 18:41:44,070 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:41:49.068519)" executed successfully 
+2018-07-07 18:41:49,069 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:41:54.068519)" (scheduled at 2018-07-07 18:41:49.068519) 
+2018-07-07 18:41:49,070 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:41:54.068519)" executed successfully 
+2018-07-07 18:41:54,069 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:41:59.068519)" (scheduled at 2018-07-07 18:41:54.068519) 
+2018-07-07 18:41:54,069 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:41:59.068519)" executed successfully 
+2018-07-07 18:41:59,070 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:41:59.068519)" (scheduled at 2018-07-07 18:41:59.068519) 
+2018-07-07 18:41:59,070 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:04.068519)" executed successfully 
+2018-07-07 18:42:04,069 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:04.068519)" (scheduled at 2018-07-07 18:42:04.068519) 
+2018-07-07 18:42:04,070 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:09.068519)" executed successfully 
+2018-07-07 18:42:09,069 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:14.068519)" (scheduled at 2018-07-07 18:42:09.068519) 
+2018-07-07 18:42:09,070 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:14.068519)" executed successfully 
+2018-07-07 18:42:13,411 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 18:42:17,794 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 18:42:17,794 - apscheduler.scheduler - INFO - scheduler.py line:287-- Adding job tentatively -- it will be properly scheduled when the scheduler starts 
+2018-07-07 18:42:17,794 - apscheduler.scheduler - INFO - scheduler.py line:262-- Added job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:22.794970)" to job store "default" 
+2018-07-07 18:42:17,795 - apscheduler.scheduler - INFO - scheduler.py line:574-- Scheduler started 
+2018-07-07 18:42:22,795 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:22.794970)" (scheduled at 2018-07-07 18:42:22.794970) 
+2018-07-07 18:42:22,795 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:27.794970)" executed successfully 
+2018-07-07 18:42:27,795 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:32.794970)" (scheduled at 2018-07-07 18:42:27.794970) 
+2018-07-07 18:42:27,796 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:32.794970)" executed successfully 
+2018-07-07 18:42:32,796 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:32.794970)" (scheduled at 2018-07-07 18:42:32.794970) 
+2018-07-07 18:42:32,797 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:37.794970)" executed successfully 
+2018-07-07 18:42:37,796 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:37.794970)" (scheduled at 2018-07-07 18:42:37.794970) 
+2018-07-07 18:42:37,796 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:42.794970)" executed successfully 
+2018-07-07 18:42:42,795 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:47.794970)" (scheduled at 2018-07-07 18:42:42.794970) 
+2018-07-07 18:42:42,796 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:47.794970)" executed successfully 
+2018-07-07 18:42:47,796 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:47.794970)" (scheduled at 2018-07-07 18:42:47.794970) 
+2018-07-07 18:42:47,796 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:47.794970)" executed successfully 
+2018-07-07 18:42:52,796 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:52.794970)" (scheduled at 2018-07-07 18:42:52.794970) 
+2018-07-07 18:42:52,797 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:57.794970)" executed successfully 
+2018-07-07 18:42:57,796 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:42:57.794970)" (scheduled at 2018-07-07 18:42:57.794970) 
+2018-07-07 18:42:57,796 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:02.794970)" executed successfully 
+2018-07-07 18:43:02,570 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 18:43:07,071 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 18:43:07,072 - apscheduler.scheduler - INFO - scheduler.py line:287-- Adding job tentatively -- it will be properly scheduled when the scheduler starts 
+2018-07-07 18:43:07,072 - apscheduler.scheduler - INFO - scheduler.py line:262-- Added job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:12.072462)" to job store "default" 
+2018-07-07 18:43:07,072 - apscheduler.scheduler - INFO - scheduler.py line:574-- Scheduler started 
+2018-07-07 18:43:07,866 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 18:43:08,487 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 18:43:12,074 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:12.072462)" (scheduled at 2018-07-07 18:43:12.072462) 
+2018-07-07 18:43:12,074 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:12.072462)" executed successfully 
+2018-07-07 18:43:17,074 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:22.072462)" (scheduled at 2018-07-07 18:43:17.072462) 
+2018-07-07 18:43:17,075 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:22.072462)" executed successfully 
+2018-07-07 18:43:22,087 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:22.072462)" (scheduled at 2018-07-07 18:43:22.072462) 
+2018-07-07 18:43:22,088 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:27.072462)" executed successfully 
+2018-07-07 18:43:27,075 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:27.072462)" (scheduled at 2018-07-07 18:43:27.072462) 
+2018-07-07 18:43:27,076 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:32.072462)" executed successfully 
+2018-07-07 18:43:32,086 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:32.072462)" (scheduled at 2018-07-07 18:43:32.072462) 
+2018-07-07 18:43:32,086 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:37.072462)" executed successfully 
+2018-07-07 18:43:37,077 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:37.072462)" (scheduled at 2018-07-07 18:43:37.072462) 
+2018-07-07 18:43:37,078 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:42.072462)" executed successfully 
+2018-07-07 18:43:42,086 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:42.072462)" (scheduled at 2018-07-07 18:43:42.072462) 
+2018-07-07 18:43:42,086 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:47.072462)" executed successfully 
+2018-07-07 18:43:47,127 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:47.072462)" (scheduled at 2018-07-07 18:43:47.072462) 
+2018-07-07 18:43:47,127 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:47.072462)" executed successfully 
+2018-07-07 18:43:52,155 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:57.072462)" (scheduled at 2018-07-07 18:43:52.072462) 
+2018-07-07 18:43:52,155 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:43:57.072462)" executed successfully 
+2018-07-07 18:43:57,086 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:44:02.072462)" (scheduled at 2018-07-07 18:43:57.072462) 
+2018-07-07 18:43:57,087 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:44:02.072462)" executed successfully 
+2018-07-07 18:44:02,076 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:44:02.072462)" (scheduled at 2018-07-07 18:44:02.072462) 
+2018-07-07 18:44:02,076 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:44:07.072462)" executed successfully 
+2018-07-07 18:44:07,087 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:44:07.072462)" (scheduled at 2018-07-07 18:44:07.072462) 
+2018-07-07 18:44:07,087 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:44:12.072462)" executed successfully 
+2018-07-07 18:44:12,076 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:44:17.072462)" (scheduled at 2018-07-07 18:44:12.072462) 
+2018-07-07 18:44:12,076 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:44:17.072462)" executed successfully 
+2018-07-07 18:44:12,995 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 18:45:07,993 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 18:45:07,993 - apscheduler.scheduler - INFO - scheduler.py line:287-- Adding job tentatively -- it will be properly scheduled when the scheduler starts 
+2018-07-07 18:45:07,993 - apscheduler.scheduler - INFO - scheduler.py line:262-- Added job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:45:12.993551)" to job store "default" 
+2018-07-07 18:45:07,994 - apscheduler.scheduler - INFO - scheduler.py line:574-- Scheduler started 
+2018-07-07 18:45:08,561 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 18:45:26,249 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 18:45:26,250 - apscheduler.scheduler - INFO - scheduler.py line:287-- Adding job tentatively -- it will be properly scheduled when the scheduler starts 
+2018-07-07 18:45:26,250 - apscheduler.scheduler - INFO - scheduler.py line:262-- Added job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:45:31.250308)" to job store "default" 
+2018-07-07 18:45:26,250 - apscheduler.scheduler - INFO - scheduler.py line:574-- Scheduler started 
+2018-07-07 18:45:26,934 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 18:45:48,056 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 18:45:48,057 - apscheduler.scheduler - INFO - scheduler.py line:287-- Adding job tentatively -- it will be properly scheduled when the scheduler starts 
+2018-07-07 18:45:48,057 - apscheduler.scheduler - INFO - scheduler.py line:262-- Added job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:45:53.057147)" to job store "default" 
+2018-07-07 18:45:48,058 - apscheduler.scheduler - INFO - scheduler.py line:574-- Scheduler started 
+2018-07-07 18:45:48,887 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 18:45:49,397 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 18:45:53,057 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:45:58.057147)" (scheduled at 2018-07-07 18:45:53.057147) 
+2018-07-07 18:45:53,058 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:45:58.057147)" executed successfully 
+2018-07-07 18:45:58,059 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:45:58.057147)" (scheduled at 2018-07-07 18:45:58.057147) 
+2018-07-07 18:45:58,059 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:03.057147)" executed successfully 
+2018-07-07 18:46:03,059 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:08.057147)" (scheduled at 2018-07-07 18:46:03.057147) 
+2018-07-07 18:46:03,059 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:08.057147)" executed successfully 
+2018-07-07 18:46:08,073 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:13.057147)" (scheduled at 2018-07-07 18:46:08.057147) 
+2018-07-07 18:46:08,073 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:13.057147)" executed successfully 
+2018-07-07 18:46:13,057 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:18.057147)" (scheduled at 2018-07-07 18:46:13.057147) 
+2018-07-07 18:46:13,058 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:18.057147)" executed successfully 
+2018-07-07 18:46:18,058 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:18.057147)" (scheduled at 2018-07-07 18:46:18.057147) 
+2018-07-07 18:46:18,059 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:18.057147)" executed successfully 
+2018-07-07 18:46:23,058 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:23.057147)" (scheduled at 2018-07-07 18:46:23.057147) 
+2018-07-07 18:46:23,058 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:23.057147)" executed successfully 
+2018-07-07 18:46:28,059 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:33.057147)" (scheduled at 2018-07-07 18:46:28.057147) 
+2018-07-07 18:46:28,059 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:33.057147)" executed successfully 
+2018-07-07 18:46:33,073 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:33.057147)" (scheduled at 2018-07-07 18:46:33.057147) 
+2018-07-07 18:46:33,074 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:33.057147)" executed successfully 
+2018-07-07 18:46:38,059 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:43.057147)" (scheduled at 2018-07-07 18:46:38.057147) 
+2018-07-07 18:46:38,060 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:43.057147)" executed successfully 
+2018-07-07 18:46:43,059 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:43.057147)" (scheduled at 2018-07-07 18:46:43.057147) 
+2018-07-07 18:46:43,059 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:48.057147)" executed successfully 
+2018-07-07 18:46:48,072 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:53.057147)" (scheduled at 2018-07-07 18:46:48.057147) 
+2018-07-07 18:46:48,072 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:53.057147)" executed successfully 
+2018-07-07 18:46:53,060 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:58.057147)" (scheduled at 2018-07-07 18:46:53.057147) 
+2018-07-07 18:46:53,060 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:46:58.057147)" executed successfully 
+2018-07-07 18:46:58,071 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:03.057147)" (scheduled at 2018-07-07 18:46:58.057147) 
+2018-07-07 18:46:58,072 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:03.057147)" executed successfully 
+2018-07-07 18:47:03,060 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:08.057147)" (scheduled at 2018-07-07 18:47:03.057147) 
+2018-07-07 18:47:03,060 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:08.057147)" executed successfully 
+2018-07-07 18:47:08,070 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:13.057147)" (scheduled at 2018-07-07 18:47:08.057147) 
+2018-07-07 18:47:08,070 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:13.057147)" executed successfully 
+2018-07-07 18:47:13,060 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:18.057147)" (scheduled at 2018-07-07 18:47:13.057147) 
+2018-07-07 18:47:13,061 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:18.057147)" executed successfully 
+2018-07-07 18:47:18,059 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:18.057147)" (scheduled at 2018-07-07 18:47:18.057147) 
+2018-07-07 18:47:18,059 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:18.057147)" executed successfully 
+2018-07-07 18:47:23,071 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:23.057147)" (scheduled at 2018-07-07 18:47:23.057147) 
+2018-07-07 18:47:23,071 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:28.057147)" executed successfully 
+2018-07-07 18:47:28,060 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:33.057147)" (scheduled at 2018-07-07 18:47:28.057147) 
+2018-07-07 18:47:28,060 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:33.057147)" executed successfully 
+2018-07-07 18:47:33,072 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:38.057147)" (scheduled at 2018-07-07 18:47:33.057147) 
+2018-07-07 18:47:33,072 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:38.057147)" executed successfully 
+2018-07-07 18:47:38,060 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:38.057147)" (scheduled at 2018-07-07 18:47:38.057147) 
+2018-07-07 18:47:38,060 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:43.057147)" executed successfully 
+2018-07-07 18:47:43,071 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:43.057147)" (scheduled at 2018-07-07 18:47:43.057147) 
+2018-07-07 18:47:43,071 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:43.057147)" executed successfully 
+2018-07-07 18:47:48,061 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:53.057147)" (scheduled at 2018-07-07 18:47:48.057147) 
+2018-07-07 18:47:48,061 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:53.057147)" executed successfully 
+2018-07-07 18:47:53,070 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:58.057147)" (scheduled at 2018-07-07 18:47:53.057147) 
+2018-07-07 18:47:53,071 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:58.057147)" executed successfully 
+2018-07-07 18:47:58,061 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:47:58.057147)" (scheduled at 2018-07-07 18:47:58.057147) 
+2018-07-07 18:47:58,062 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:48:03.057147)" executed successfully 
+2018-07-07 18:48:03,071 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:48:08.057147)" (scheduled at 2018-07-07 18:48:03.057147) 
+2018-07-07 18:48:03,071 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:48:08.057147)" executed successfully 
+2018-07-07 18:48:08,060 - apscheduler.scheduler - INFO - scheduler.py line:509-- Running job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:48:13.057147)" (scheduled at 2018-07-07 18:48:08.057147) 
+2018-07-07 18:48:08,061 - apscheduler.scheduler - INFO - scheduler.py line:527-- Job "mytask (trigger: interval[0:00:05], next run at: 2018-07-07 18:48:13.057147)" executed successfully 
+2018-07-07 18:48:09,132 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 18:48:16,151 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 18:48:16,990 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 18:48:17,644 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 18:55:52,651 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 18:55:56,931 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 18:55:57,720 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 18:55:58,346 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 18:57:27,330 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 18:58:26,871 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 18:58:32,349 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 18:58:32,872 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 18:58:51,883 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 19:02:46,023 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 19:02:50,447 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 19:02:50,841 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 19:03:39,900 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 19:04:55,452 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 19:04:56,303 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 19:04:57,073 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 19:06:39,318 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 19:06:41,411 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 19:06:52,115 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 19:07:01,483 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 19:07:02,172 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 19:07:02,631 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 19:07:40,859 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 19:07:45,662 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 19:07:46,401 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 19:07:46,881 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 19:08:02,910 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-07-07 19:08:40,031 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-07-07 19:08:41,058 - django.request - ERROR - exception.py line:118-- Internal Server Error: / 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-07-07 19:08:41,728 - django.request - ERROR - exception.py line:118-- Internal Server Error: /favicon.ico 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\iot\IotMidWare.py", line 26, in process_request
+    ob = json.loads(str(request.body, encoding = "utf-8"))
+  File "E:\common\Python\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "E:\common\Python\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "E:\common\Python\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

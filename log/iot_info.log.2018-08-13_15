@@ -1,0 +1,66 @@
+2018-08-12 22:29:05,437 - django.request - ERROR - exception.py line:118-- Internal Server Error: /login/create_code_img/ 
+Traceback (most recent call last):
+  File "E:\common\Python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\common\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\common\Python\lib\site-packages\django\bin\iot\login\views.py", line 130, in verify_code
+    logger.info("timestamp : "+request.GET.get('timestamp'))
+TypeError: must be str, not NoneType
+2018-08-12 22:29:05,489 - all - INFO - views.py line:130-- timestamp : 1534084145462 
+2018-08-13 09:27:30,188 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 10:00:43,493 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 10:00:45,634 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 10:01:56,794 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 10:01:58,507 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 10:02:02,593 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 10:02:10,678 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 10:02:15,852 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 10:02:17,547 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 10:05:50,731 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 10:05:52,419 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 10:06:53,245 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 10:08:47,050 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 10:09:44,278 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 10:09:45,907 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 10:36:09,357 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 10:36:11,002 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 10:36:47,746 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 10:36:49,380 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 10:37:27,511 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 10:37:29,131 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 11:01:24,215 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 11:01:25,897 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 11:03:10,125 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 11:03:11,711 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 11:06:25,174 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 11:06:26,821 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 11:08:20,681 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 15:08:31,152 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 15:09:23,483 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 15:09:25,081 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 15:10:45,850 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 15:10:47,441 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 15:12:28,169 - root - INFO - threadpool.py line:111-- Shutting down thread pool 
+2018-08-13 15:12:29,894 - apscheduler.threadpool - INFO - threadpool.py line:52-- Started thread pool with 0 core threads and 20 maximum threads 
+2018-08-13 15:21:46,350 - all - INFO - views.py line:164-- timestamp : 1534144906042 
+2018-08-13 15:21:51,776 - all - INFO - views.py line:164-- timestamp : 1534144911753 
+2018-08-13 15:21:58,080 - all - ERROR - views.py line:63-- <QuerySet []> 
+2018-08-13 15:22:06,767 - all - ERROR - views.py line:63-- <QuerySet []> 
+2018-08-13 15:29:10,773 - all - INFO - views.py line:58-- get news : 
+2018-08-13 15:29:10,776 - all - INFO - views.py line:147-- get news : 
+2018-08-13 15:29:10,779 - all - INFO - views.py line:128-- get news : 
+2018-08-13 15:29:10,853 - all - ERROR - views.py line:161-- list index out of range 
+2018-08-13 15:29:10,863 - all - INFO - views.py line:111-- get news : 
+2018-08-13 15:29:23,960 - all - INFO - views.py line:58-- get news : 
+2018-08-13 15:29:23,963 - all - INFO - views.py line:147-- get news : 
+2018-08-13 15:29:23,969 - all - ERROR - views.py line:161-- list index out of range 
+2018-08-13 15:29:23,983 - all - INFO - views.py line:128-- get news : 
+2018-08-13 15:29:23,984 - all - INFO - views.py line:111-- get news : 
+2018-08-13 15:35:45,042 - all - INFO - views.py line:58-- get news : 
+2018-08-13 15:35:45,064 - all - INFO - views.py line:147-- get news : 
+2018-08-13 15:35:45,065 - all - INFO - views.py line:128-- get news : 
+2018-08-13 15:35:45,079 - all - ERROR - views.py line:161-- list index out of range 
+2018-08-13 15:35:45,083 - all - INFO - views.py line:111-- get news : 
